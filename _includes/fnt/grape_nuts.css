@@ -1,0 +1,14 @@
+/* grape-nuts-regular - latin */
+@font-face {
+  font-family: 'Grape Nuts';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.svg#GrapeNuts') format('svg'); /* Legacy iOS */
+}

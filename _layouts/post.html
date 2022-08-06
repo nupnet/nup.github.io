@@ -1,0 +1,11 @@
+---
+layout: bare
+---
+<main>
+  <article{% if page.categories.size > 0 %} class="seccion_{{ page.categories | first }}"{% endif %}>
+{% include hero.html %}
+    <div class="container">
+{{ content }}
+    </div>
+  </article>
+</main>

@@ -1,0 +1,28 @@
+---
+layout: bare
+title: Tu mensaje fue enviado
+header: |
+  <style>
+    .hero {
+      background: #0093E9 linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    }
+    .hero .container > img {
+      max-width: 40%;
+    }
+  </style>
+---
+<main>
+  <header class="hero">
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <img src="{{ "/img/hero/email.png" | prepend:site.baseurl }}" alt="Ilustraci&oacute;n de una carta o sobre postal.">
+      <div class="hero__body">
+        <h2>Gracias por comunicarte con nosotros</h2>
+        <p>No podemos esperar a leer tus palabras.</p>
+        <p>Si pasan nuestro filtro de spam, claro.</p>
+        <p>Y si no tenemos nada mejor que hacer.</p>
+      </div>
+      <a href="{{ site.baseurl | prepend:site.url }}" class="btn btn-primary btn-lg">Ir a la p&aacute;gina principal</a>
+    </div>
+  </header>
+</main>

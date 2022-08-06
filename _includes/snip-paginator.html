@@ -1,0 +1,38 @@
+{%- capture output -%}
+{% comment %}https://github.com/jekyll/jekyll/issues/260{% endcomment %}
+  {%- if include.reverse -%}
+    {%- assign posts = include.posts | reverse -%}
+  {%- else -%}
+    {%- assign posts = include.posts -%}
+  {%- endif -%}
+  {%- for post in posts -%}
+    {%- unless post.hidden -%}
+      {%- if post.url == page.url -%}
+        {%- assign post_index0 = forloop.index0 -%}
+        {%- assign post_index1 = forloop.index -%}
+      {%- endif -%}
+    {%- endunless -%}
+  {%- endfor -%}
+  {%- for post in posts -%}
+    {%- unless post.hidden -%}
+      {%- if post_index0 == forloop.index -%}
+        {%- assign next_post = post -%}
+      {%- endif -%}
+      {%- if post_index1 == forloop.index0 -%}
+        {%- assign prev_post = post -%}
+      {%- endif -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- if prev_post or next_post %}
+  <nav class="paginator">{% if include.add_container %}
+    <div class="container">{% endif %}
+    <a role="button" rel="prev"{% if prev_post %} href="{{ prev_post.url }}" title="Anterior: {{ prev_post.title }}"{% endif %}><span>Anterior</span></a>
+    &nbsp;{% if include.add_index %}
+    <a role="button" rel="index" href="{{ include.add_index }}" title="&Iacute;ndice"><span>&Iacute;ndice</span></a>
+    &nbsp;{% endif %}
+    <a role="button" rel="next"{% if next_post %} href="{{ next_post.url }}" title="Siguiente: {{ next_post.title }}"{% endif %}><span>Siguiente</span></a>
+    {%- if include.add_container %}  </div>{% endif %}
+  </nav>
+{%- endif -%}

@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Declaraciones de atribuci&oacute;n"
+use_lightbox: true
+---
+<div class="copete">Esta secci&oacute;n tiene el estado de <strong>borrador preliminar</strong>.</div>
+
+<p>Salvo declaraci&oacute;n expresa, todas las obras utilizadas en este
+sitio web son copyright de sus respectivos due&ntilde;os.</p>
+
+<p>A continuaci&oacute;n se enumeran las  atribuciones de las obras de terceros
+utilizadas.  El hecho de que una obra no aparezca en el siguiente listado no
+implica declaraci&oacute;n de ning&uacute;n tipo sobre dicha obra, incluyendo,
+pero no limit&aacute;ndose a: autor&iacute;a, propiedad o licencia.</p>
+
+<h2>Im&aacute;genes</h2>
+{%- include snip-zeropig.inc.html -%}
+
+<h2>Tipograf&iacute;as</h2>
+<ul class="licencias">
+{%- for lic in site.data.licencias.fnt -%}
+  {%- assign _lic_data=lic[1] -%}
+  <li>{%- include snip-licencia-elem.inc.html licencia=_lic_data -%}</li>
+{%- endfor -%}
+</ul>
+

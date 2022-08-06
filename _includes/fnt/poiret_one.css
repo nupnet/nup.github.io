@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fnt/PoiretOne/Poiret-One-Regular.eot'); /* IE9 */
+  src: url('fnt/PoiretOne/Poiret-One-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fnt/PoiretOne/Poiret-One-Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('fnt/PoiretOne/Poiret-One-Regular.woff') format('woff'), /* Modern Browsers */
+    url('fnt/PoiretOne/Poiret-One-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fnt/PoiretOne/Poiret-One-Regular.svg#PoiretOne') format('svg'); /* Legacy iOS */
+}

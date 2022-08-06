@@ -1,0 +1,35 @@
+{%- if include.html_style -%}
+  {%- assign _html_style=include.html_style -%}
+{%- elsif include.bg_img -%}
+  {%- assign _html_style=include.bg_img | prepend:site.baseurl | prepend:"background-image:url(" | append:")" -%}
+{%- elsif include.bg_img_url -%}
+  {%- assign _html_style=include.bg_img_url | prepend:"background-image:url(" | append:")" -%}
+{%- endif -%}
+<{{ include.html_tag | default:"header" }} class="hero
+{%- if include.hero_types -%}
+  {%- for type in include.hero_types %} hero--{{type}}{%- endfor -%}
+{%- else %} hero--bg{%- endif -%}"
+{%- if _html_style %} style="{{- _html_style -}}"{%- endif -%}>
+  <div class="container">
+{%- if include.img %}
+    <img src="{{ include.img.src }}"
+    {%- if include.img.alt %} alt="{{ include.img.alt }}"{%- endif -%}
+    {%- if include.img.width %} width="{{ include.img.width }}"{%- endif -%}
+    {%- if include.img.height %} height="{{ include.img.height }}"{%- endif %}>
+{%- endif -%}
+{%- if include.volanta %}
+    <p class="hero__section-name">{{ include.volanta }}</p>
+{%- endif -%}
+{%- if include.title %}
+    <h1>{{ include.title }}</h1>
+{%- endif -%}
+{%- if include.subtitle %}
+    <h2>{{ include.subtitle }}</h2>
+{%- endif -%}
+{%- if include.copete_html %}
+    <div class="hero__body">
+{{ include.copete_html | strip -}}
+    </div>
+{%- endif %}
+  </div>
+</{{ include.html_tag | default:"header" }}>

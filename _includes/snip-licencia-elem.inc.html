@@ -1,0 +1,12 @@
+{%- if include.licencia -%}
+  {%- if include.licencia.atribucion -%}
+    {{ include.licencia.atribucion }}
+  {%- else -%}
+    {%- if include.licencia.work_name -%}<a{%- if include.licencia.work_href %} href="{{ include.licencia.work_href }}" target="_blank"{%- endif -%}>{{ include.licencia.work_name }}</a>{%- endif -%}
+    {%- if include.licencia.author_name %} por <a{%- if include.licencia.author_href %} href="{{ include.licencia.author_href }}" target="_blank"{%- endif -%}>{{ include.licencia.author_name }}</a>{%- endif -%}
+    {%- if include.licencia.license_name %} con licencia <a{%- if include.licencia.license_href %} href="{{ include.licencia.license_href }}" target="_blank"{%- endif -%}>{{ include.licencia.license_name }}</a>{%- endif -%}
+    {%- if include.licencia.via_name %} v&iacute;a <a{%- if include.licencia.via_href %} href="{{ include.licencia.via_href }}" target="_blank"{%- endif -%}>{{ include.licencia.via_name }}</a>{%- endif -%}
+  {%- endif -%}
+{%- else %}
+  Sin informaci&oacute;n de licencia
+{%- endif -%}

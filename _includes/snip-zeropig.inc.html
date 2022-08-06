@@ -1,0 +1,48 @@
+{%- unless include.sin_lista -%}
+<dl class="licencias">
+{%- endunless -%}
+{%- assign _cant_total = 0 -%}
+{%- assign _cant_licen = 0 -%}
+{%- for image in site.static_files -%}
+  {%- for scan in site.data.licencias.directorios.scan -%}
+    {%- assign _scan_prefix = image.path | slice:0,scan.size -%}
+    {%- if _scan_prefix == scan -%}
+
+      {%- assign _ignore_this = false -%}
+      {%- for ignore in site.data.licencias.directorios.ignore -%}
+        {%- assign _ignore_prefix = image.path | slice:0,ignore.size -%}
+        {%- if _ignore_prefix == ignore -%}
+          {%- assign _ignore_this = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- unless _ignore_this -%}
+        {%- assign _cant_total = _cant_total | plus:1 -%}
+        {%- assign _slug = image.path -%}
+        {%- assign _lic = site.data.licencias.img[_slug] -%}
+
+        {%- if _lic -%}
+          {%- assign _cant_licen = _cant_licen | plus:1 -%}
+        {%- endif -%}
+
+        {%- unless include.sin_lista -%}
+          <dt{% unless _lic %} class="sin_licencia"{% endunless %}>
+            <a href="{{ _slug | prepend:site.baseurl }}" data-lightbox="nupimage1" data-title="{{ image.name }}">{{ image.name }}</a>
+          </dt>
+          <dd{% unless _lic %} class="sin_licencia"{% endunless %}>
+            {%- include snip-licencia-elem.inc.html licencia=_lic -%}
+          </dd>
+        {%- endunless -%}
+      {%- endunless -%}
+
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- unless include.sin_lista -%}
+</dl>
+{%- endunless -%}
+<div class="progreso">
+  <label>Im&aacute;genes</label>
+  <span><strong>{{ _cant_licen }}</strong> de <strong>{{ _cant_total }}</strong></span>
+  <progress value="{{ _cant_licen }}" max="{{ _cant_total }}"></progress>
+</div>

@@ -1,0 +1,23 @@
+{%- capture output -%}
+{%- assign tagged = false -%}
+{%- assign tag_list = include.tags | split:' ' -%}
+{%- for post in site.posts -%}
+  {%- for tag in post.tags -%}
+    {%- assign print = false -%}
+    {%- for tag_to_print in tag_list -%}
+      {%- if tag == tag_to_print and page.url != post.url -%}
+        {%- assign print = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if print -%}
+      {%- assign tagged = true -%}
+  <li><a href="{{ post.url }}">{%- if post.subtitle -%}{{ post.subtitle }}: {% endif -%}{{ post.title }}</a></li>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- if tagged -%}
+<ul class="TablaDeContenido">
+{{ output }}
+</ul>
+{%- endif -%}

@@ -1,0 +1,14 @@
+/* handlee-regular - latin */
+@font-face {
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fnt/Handlee/handlee-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fnt/Handlee/handlee-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fnt/Handlee/handlee-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fnt/Handlee/handlee-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fnt/Handlee/handlee-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fnt/Handlee/handlee-v12-latin-regular.svg#Handlee') format('svg'); /* Legacy iOS */
+}

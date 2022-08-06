@@ -1,0 +1,11 @@
+{%- assign post_word_count = include.post.content|number_of_words -%}
+<article class="seccion_{{ include.post.categories | first }}{%- if post_word_count < 10 %} tipo_nota{%- endif -%}">
+<div class="container">
+{%- if include.post.title -%}
+  <header>
+    <h2>{{ include.post.title }}</h2>
+  </header>
+{%- endif -%}
+{{ include.post.content }}
+</div>
+</article>

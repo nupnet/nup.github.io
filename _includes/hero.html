@@ -1,0 +1,15 @@
+{%- unless include.hero_types == false or page.hero_types == false -%}
+  {%- assign _hero_types=include.hero_types | default:page.hero_types | default:layout.hero_types -%}
+{%- endunless -%}
+
+{%- include hero.inc.html
+  title=page.title
+  subtitle=page.subtitle
+  volanta=page.volanta
+  copete_html=page.copete_html
+  img=page.hero_img
+  hero_types=_hero_types
+  bg_img=page.bg_img
+  bg_img_url=page.bg_img_url
+  html_style=page.html_style
+-%}

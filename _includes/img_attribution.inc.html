@@ -1,0 +1,7 @@
+<figure class="{{ include.class | default:"img_foto" }}">
+<img src="{{ include.src | prepend:site.baseurl }}" alt="include.alt">
+<figcaption>
+{{ site.data.licencias.archivos[include.src].atribucion }}
+</figcaption>
+</figure>
+

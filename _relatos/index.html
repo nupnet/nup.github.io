@@ -1,0 +1,24 @@
+---
+layout: bare
+hidden: true
+title: "Relatos"
+subtitle: "Las haza&ntilde;as de Chapu y compa&ntilde;&iacute;a"
+hero_types:
+  - paper
+hero_img:
+  src: /img/hero/hare-with-pencil.svg
+  width: 171
+copete_html: |
+  <p>&iquest;Mitos griegos?</p>
+  <p>&iquest;Leyendas urbanas?</p>
+  <p>&iquest;Verdades exageradas a trav&eacute;s del vidrio de una botella?</p>
+  <p>Desc&uacute;bralo aqu&iacute;.</p>
+---
+<main>
+{%- include hero.html -%}
+<section class="lista-posts relatos">
+  <div class="container">
+{% include snip-index-seccion-condesc.html category=site.relatos %}
+  </div>
+</section>
+</main>

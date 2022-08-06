@@ -1,0 +1,68 @@
+# Site settings
+title: NUP
+email: webmaster@nup.net.ar
+description: NUP Online, una vez más a los ponchazos en internet.
+baseurl: "" # the subpath of your site, e.g. /blog/ NOTA: No agregar barra al final.
+url: "https://www.nup.net.ar" # the base hostname & protocol for your site
+blogurl: "https://blog.nup.net.ar"
+timezone: America/Buenos_Aires
+permalink: :categories/:title:output_ext
+collections:
+  arte:
+    output: true
+  articulos:
+    output: true
+  personajes:
+    output: true
+  productos:
+    output: true
+  relatos:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: blog
+    values:
+      layout: blogpost
+      permalink: :categories/:year/:month/:day/:title:output_ext
+  -
+    scope:
+      type: arte
+    values:
+      layout: arte
+  -
+    scope:
+      type: articulos
+    values:
+      layout: articulo
+  -
+    scope:
+      type: personajes
+    values:
+      layout: post
+  -
+    scope:
+      type: relatos
+    values:
+      layout: relato
+  -
+    scope:
+      path: chapu
+      type: relatos
+    values:
+      layout: relato
+      permalink: :categories/chapu/:title:output_ext
+  -
+    scope:
+      path: rompeweb
+      type: relatos
+    values:
+      layout: relato
+      permalink: :categories/rompeweb/:title:output_ext
+
+# Build settings
+markdown: kramdown
+
+# Para prueba local poner "production" en false
+production: true

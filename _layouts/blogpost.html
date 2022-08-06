@@ -1,0 +1,21 @@
+---
+layout: post
+hero_types:
+  - articulos
+  - layer1-dark
+---
+<time datetime="{{ page.date | date:"%Y-%m-%d" }}" class="post_fecha">{% include translated_date.html date=page.date format="%A %-d de %B de %Y" lang="es" %}</time>
+
+{%- comment -%}
+<time datetime="{{ page.date | date:"%Y-%m-%d" }}" class="almanaque">
+  <span class="year">{{ page.date | date:"%Y" }}</span>
+  <span class="month">{% include translated_date.html date=page.date format="%B" lang="es" %}</span>
+  <span class="day">{{ page.date | date:"%-d" }}</span>
+  <span class="weekday">{% include translated_date.html date=page.date format="%A" lang="es" %}</span>
+</time>
+{%- endcomment -%}
+
+{% include img_featured.inc.html %}
+{{ content }}
+{%- include snip-material-archivo.inc.html -%}
+{% include snip-paginator.html add_index="/blog" posts=site.categories.blog %}

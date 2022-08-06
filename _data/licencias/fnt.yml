@@ -1,0 +1,52 @@
+Montserrat:
+  work_name: Montserrat
+  work_href: https://github.com/JulietaUla/Montserrat
+  license_name: SIL Open Font License 1.1
+  license_href: http://scripts.sil.org/OFL
+
+Nunito:
+  work_name: Nunito
+  work_href: https://github.com/googlefonts/nunito
+  license_name: SIL Open Font License 1.1
+  license_href: http://scripts.sil.org/OFL
+
+PoiretOne:
+  work_name: Poiret One
+  work_href: https://fonts.google.com/specimen/Poiret+One
+  license_name: SIL Open Font License
+  license_href: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+GrapeNuts:
+  work_name: Grape Nuts
+  work_href: https://github.com/googlefonts/grapenuts
+  license_name: SIL Open Font License 1.1
+  license_href: http://scripts.sil.org/OFL
+
+KonanurKaps:
+  work_name: Konanur Kaps
+  work_href: https://www.1001fonts.com/konanur-kaps-font.html
+  author_name: Dieter Steffmann (dise&ntilde;o por David Rakowski)
+  author_href: https://www.1001fonts.com/users/steffmann/
+  license_name: 1001Fonts Free For Commercial Use License (FFC)
+  license_href: https://www.1001fonts.com/licenses/ffc.html
+
+Handlee:
+  work_name: Handlee
+  work_href: https://fonts.google.com/specimen/Handlee
+  license_name: SIL Open Font License
+  license_href: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+GentiumBasic:
+  work_name: Gentium Basic
+  work_href: https://fonts.google.com/specimen/Gentium+Basic
+  license_name: SIL Open Font License
+  license_href: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+Typicons:
+  work_name: Typicons
+  work_href: https://github.com/stephenhutchings/typicons.font
+  author_name: Stephen Hutchings
+  author_href: https://www.s-ings.com/
+  license_name: SIL Open Font License
+  license_href: https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
+

@@ -1,0 +1,11 @@
+  {%- for post in include.category %}
+    {%- unless post.hidden %}
+      <article{% if post.icon %} style="background-image:url({{ post.icon }})"{% endif %}>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {%- assign _post_excerpt =  post.excerpt | strip_html | strip_newlines | truncatewords:20 | strip -%}
+        {%- if _post_excerpt != "" %}
+        <p>{{ _post_excerpt }}</p>
+        {%- endif %}
+      </article>
+    {% endunless -%}
+  {% endfor -%}

@@ -1,0 +1,29 @@
+---
+layout: bare
+hidden: true
+title: "Arte NUP"
+hero_img:
+  src: /img/hero/img-arte.png
+hero_types:
+  - paper
+copete_html: |
+  <p>Descubra c&oacute;mo estamos trabajando para preservar este invaluable legado cultural del siglo pasado.</p>
+---
+<main>
+{%- include hero.html -%}
+<div class="container">
+  <nav class="paginator"><a class="btn btn-info btn-lg" href="expli_arte.html">&iquest;Qu&eacute; es el Arte NUP?</a></nav>
+  <ul class="image_gallery">
+    {%- for post in site.arte -%}
+      {%- unless post.hidden -%}
+      <li><a href="{{ post.url }}" title="{{ post.title }}">
+        <figure>
+          <img src="{{ post.thumbnail_img.src | default:post.featured_img.src }}" alt="{{ post.subtitle }}" loading="lazy">
+          <figcaption>{{ post.title }}</figcaption>
+        </figure>
+      </a></li>
+      {% endunless -%}
+    {%- endfor -%}
+  </ul>
+</div>
+</main>

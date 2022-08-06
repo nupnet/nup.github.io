@@ -1,0 +1,7 @@
+scan:
+  - /img
+ignore:
+  - /img/arte
+  - /img/personajes
+  - /img/relatos
+  - /img/articulos/venti-toti

@@ -1,0 +1,8 @@
+{%- for prj in site.data.proyectos -%}
+<div class="progreso">
+  <label>{{ prj.title }}</label>
+  <span><strong>{{ prj.value }}</strong> de <strong>{{ prj.max }}</strong></span>
+  <progress value="{{ prj.value }}" max="{{ prj.max }}"></progress>
+</div>
+{% endfor -%}
+{%- include snip-zeropig.inc.html sin_lista=true -%}

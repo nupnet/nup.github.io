@@ -1,0 +1,7 @@
+  {%- for post in include.category %}
+    {%- unless post.hidden %}
+    <article{% if post.icon %} style="background-image:url({{ post.icon }})"{% endif %}>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </article>
+    {%- endunless %}
+  {%- endfor %}

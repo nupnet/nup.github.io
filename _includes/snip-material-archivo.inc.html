@@ -1,0 +1,11 @@
+{%- if page.tags contains "o:archivo" %}
+  {% include snip-material-archivo.html %}
+{%- elsif page.tags contains "o:sitio_amarillo" %}
+  <aside class="garabato_1">Archivo sitio amarillo</aside>
+{%- elsif page.tags contains "o:sitio_liquido" %}
+  <aside class="garabato_2">Archivo sitio l&iacute;quido</aside>
+{%- elsif page.tags contains "o:pun" %}
+  <aside class="garabato_1">Proyecto PunOnline</aside>
+{%- elsif page.tags contains "o:prj2012" %}
+  <aside class="garabato_2">Proyecto N-U-P 2012</aside>
+{%- endif -%}
