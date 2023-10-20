@@ -9,6 +9,7 @@
 
 :root {
  --base-font-size: 14pt;
+ --content-width: 37rem;
 }
 
 * {
@@ -132,28 +133,28 @@ pre > code {
 }
 
 
-.container {
- max-width: 40rem;
- padding-left: 1.25rem;
- padding-right: 1.25rem;
- margin-left: auto;
- margin-right: auto;
+body > header > nav,
+body > footer > nav,
+main > article,
+main > section,
+main > nav,
+main > ul,
+.hero
+{
+ padding: 0 max(1.25rem, 50vw - var(--content-width) / 2);
 }
 
-.container::after, .container::before {
+.paginator::before,
+.hero::before,
+.hero::after {
+ clear: both;
  display: table;
  content: " ";
 }
 
-.container::after {
- clear: both;
-}
-
-main .container:first-child .copete {
+main :first-child .copete {
  margin-top: 5ex;
 }
-
-
 
 /*============================================================================
  *
@@ -424,6 +425,7 @@ body > footer nav a[href$="/atribuciones.html"]::before {
  right: 0;
  z-index: -1;
  background-color: rgba(0,0,0, 0.5);
+ display: block;
 }
 
 .hero--layer2-dark .container::before {
@@ -581,8 +583,8 @@ main > article {
  margin-bottom: 4ex;
 }
 
-main > article header {
- margin-bottom: 4ex;
+main > header + article {
+ margin-top: 4ex;
 }
 
 main > article p {
@@ -595,7 +597,7 @@ main > article li {
  margin-bottom: 1.5ex;
 }
 
-main > article > .container > p:first-of-type::first-letter {
+main > article > p:first-of-type::first-letter {
  display: inline-block;
  float: left;
  font-family: 'KonanurKaps', display;
@@ -610,7 +612,7 @@ main > article > .container > p:first-of-type::first-letter {
  color: #337AB7;
 }
 
-main > article > .container > p:last-of-type::after {
+main > article > p:last-of-type::after {
  content: " \2666";
  font-weight: bold;
  color: #AAA;
@@ -1108,7 +1110,6 @@ a.img_taped:hover>img {
  text-align: center;
  margin-top: 4ex;
  margin-bottom: 4ex;
- padding: 0;
  display: flex;
  flex: 1 1 0px;
  justify-content: center;
@@ -1348,7 +1349,6 @@ body > a span {
  gap: 0.5ex;
  list-style: none;
  margin: 4ex 0;
- padding: 0;
 }
 
 .image_gallery > li {
@@ -1534,7 +1534,8 @@ textarea {
  *
  *============================================================================*/
 
-.garabato_1, .garabato_2, .ExpliArchivo {
+.garabato_1, .garabato_2 {
+ clear: both;
  display: block;
  text-indent: 0;
  text-align: center;
@@ -1548,7 +1549,7 @@ textarea {
  transform: rotate(-2deg);
 }
 
-a.garabato_1, a.garabato_2, a.ExpliArchivo {
+.garabato_1 a, .garabato_2 a {
  text-decoration: underline wavy;
 }
 

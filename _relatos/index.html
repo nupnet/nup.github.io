@@ -15,10 +15,8 @@ copete_html: |
   <p>Desc&uacute;bralo aqu&iacute;.</p>
 ---
 <main>
-{%- include hero.html -%}
+{% include hero.html %}
 <section class="lista-posts relatos">
-  <div class="container">
 {% include snip-index-seccion-condesc.html category=site.relatos %}
-  </div>
 </section>
 </main>

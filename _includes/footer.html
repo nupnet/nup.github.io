@@ -1,12 +1,10 @@
 <footer>
-  <div class="container">
-    <nav>
-      <a href="{{ "/contacto.html" | prepend:site.baseurl }}" rel="author">Contacto</a>
-      <a href="{{ "/feed.xml" | prepend:site.baseurl }}">RSS</a>
-      <a href="{{ "/atribuciones.html" | prepend:site.baseurl }}" rel="license">Atribuciones</a>
-    </nav>
-    <p><small>Copyright &copy; 2002-2022 NUP.</small> <small>Todos los derechos reservados.</small></p>
-  </div>
+  <nav>
+    <a href="{{ "/contacto.html" | prepend:site.baseurl }}" rel="author">Contacto</a>
+    <a href="{{ "/feed.xml" | prepend:site.baseurl }}">RSS</a>
+    <a href="{{ "/atribuciones.html" | prepend:site.baseurl }}" rel="license">Atribuciones</a>
+  </nav>
+  <p><small>Copyright &copy; 2002-2022 NUP.</small> <small>Todos los derechos reservados.</small></p>
 </footer>
 {%- if page.use_lightbox or layout.use_lightbox -%}
 <script type="text/javascript" src="{{ "/lib/jquery-1.12.2.min.js" | prepend:site.baseurl }}"></script>

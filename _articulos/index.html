@@ -12,18 +12,14 @@ hero_img:
   alt: Dibujo de una lupa apoyada contra un libro cerrado
 ---
 <main>
+{% include hero.html %}
 <section class="lista-posts">
-  {%- include hero.html -%}
-  <div class="container">
 {% include snip-index-seccion-sindesc.html category=site.articulos %}
-  </div>
 </section>
 {% comment -%}
 <section class="lista-posts">
-  {% include hero.inc.html title="Productos" %}
-  <div class="container">
+{% include hero.inc.html title="Productos" %}
 {% include snip-index-seccion-sindesc.html category=site.productos %}
-  </div>
 </section>
 {%- endcomment -%}
 </main>

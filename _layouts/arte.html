@@ -7,14 +7,12 @@ hero_types:
   - layer1-dark
 ---
 <main>
+{% include hero.html %}
   <article class="seccion_arte">
-{% include hero.html -%}
-    <div class="container">
-      <a class="post_image img_taped has_zoom" href="{{ page.featured_img.zoom | default:page.featured_img.src }}" data-lightbox="nupimage1" data-title="{{ page.title }}">
-        <img src="{{ page.featured_img.src }}" alt="{{ page.subtitle }}"{% if page.featured_img.width %} width="{{ page.featured_img.width }}"{% endif %}{% if page.featured_img.height %} height="{{ page.featured_img.height }}"{% endif %}>
-      </a>
+    <a class="post_image img_taped has_zoom" href="{{ page.featured_img.zoom | default:page.featured_img.src }}" data-lightbox="nupimage1" data-title="{{ page.title }}">
+      <img src="{{ page.featured_img.src }}" alt="{{ page.subtitle }}"{% if page.featured_img.width %} width="{{ page.featured_img.width }}"{% endif %}{% if page.featured_img.height %} height="{{ page.featured_img.height }}"{% endif %}>
+    </a>
     {{ content }}
-    </div>
 {%- include snip-material-archivo.inc.html -%}
 {%- include snip-paginator.html add_index="/arte" posts=site.arte reverse=true -%}
   </article>
