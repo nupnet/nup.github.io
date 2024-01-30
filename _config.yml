@@ -3,8 +3,8 @@ title: NUP
 email: webmaster@nup.net.ar
 description: NUP Online, una vez más a los ponchazos en internet.
 baseurl: "" # the subpath of your site, e.g. /blog/ NOTA: No agregar barra al final.
-url: "https://www.nup.net.ar" # the base hostname & protocol for your site
-blogurl: "https://blog.nup.net.ar"
+url: "https://www.nup.com.ar" # the base hostname & protocol for your site
+blogurl: "https://blog.nup.com.ar"
 timezone: America/Buenos_Aires
 permalink: :categories/:title:output_ext
 collections:
