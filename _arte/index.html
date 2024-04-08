@@ -15,7 +15,7 @@ copete_html: |
   <ul class="image_gallery">
     {%- for post in site.arte -%}
       {%- unless post.hidden -%}
-      <li><a href="{{ post.url }}" title="{{ post.title }}">
+      <li><a href="{{ post.url }}" title="{{ post.title }}"><span>Ver</span>
         <figure>
           <img src="{{ post.thumbnail_img.src | default:post.featured_img.src }}" alt="{{ post.subtitle }}" loading="lazy">
           <figcaption>{{ post.title }}</figcaption>

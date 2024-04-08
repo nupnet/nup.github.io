@@ -7,9 +7,9 @@
 {%- include fnt/nupicons.css %}
 
 :root {
- --base-font-size: 14pt;
- --content-width: 37rem;
- --font-body: 'Nunito', Verdana, sans-serif;
+ --base-font-size: 15pt;
+ --content-width: 34rem;
+ --font-body: 'Nunito', sans-serif;
  --font-headline: 'Montserrat', sans-serif;
  --font-handwriting: 'Grape Nuts', cursive;
  --font-icons: 'nupicons';
@@ -276,6 +276,7 @@ body > footer {
  padding-top: 1ex;
  padding-bottom: 2ex;
  color: #666;
+ font-size: 14pt;
  text-align: center;
  background: url("{{ "/img/style/chapu-jeta.png" | prepend:site.baseurl }}") left bottom no-repeat;
  min-height: 126px;
@@ -465,7 +466,7 @@ body > footer nav a[href$="/atribuciones.html"]::before {
 }
 
 .hero p {
- font-size: 15pt;
+ font-size: 16pt;
  margin: 0;
  margin-bottom: 1.5ex;
 }
@@ -552,13 +553,14 @@ main > article > p:first-of-type::first-letter {
  font-family: 'KonanurKaps', display;
  font-weight: normal;
  font-style: normal;
- font-size: 6ex;
+ font-size: 48pt;
  line-height: 1;
  margin-right: 0.5rem;
  text-indent: 0;
  text-transform: uppercase;
  text-shadow: #DDD 0 0 1ex;
  color: #337AB7;
+ color: #555;
 }
 
 main > article > p:last-of-type::after {
@@ -1304,6 +1306,10 @@ body > a span {
 .image_gallery > li {
  margin: 0;
  padding: 0;
+}
+
+.image_gallery li > a > span {
+ display: none;
 }
 
 .image_gallery figure {
