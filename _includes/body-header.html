@@ -1,7 +1,7 @@
 {%- assign nombre_seccion = page.url | replace:'/',' ' | strip | split:' ' | first -%}
 <header>
   <nav>
-    <a href="{% if site.production %}{{ site.baseurl | prepend:site.url }}{% else %}{{ site.baseurl | append:"/" }}{% endif %}" title="P&aacute;gina principal de {{ site.title }}" class="site-logo"><img width="100" height="50" src="{{ "/img/comun/logo-light.png" | prepend:site.baseurl }}" alt="Logo de {{ site.title }}"></a>
+    <a href="{{ site.baseurl | append:"/" }}" title="P&aacute;gina principal de {{ site.title }}" class="site-logo"><img width="100" height="50" src="{{ "/img/comun/logo-light.png" | prepend:site.baseurl }}" alt="Logo de {{ site.title }}"></a>
     <ul>
       <li><a {% if nombre_seccion == "arte" %}class="active" {% endif %}href="/arte">Arte</a></li>
       <li><a {% if nombre_seccion == "relatos" %}class="active" {% endif %}href="/relatos">Relatos</a></li>

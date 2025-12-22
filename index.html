@@ -3,5 +3,8 @@ layout: bare
 ---
 <main>
 {{ site.categories.front.first.content }}
-{% include blogpost.html post=site.categories.blog.first %}
+  <article>
+{% include snip-post-header.inc.html item=site.categories.blog.first %}
+{{ site.categories.blog.first.content }}
+  </article>
 </main>

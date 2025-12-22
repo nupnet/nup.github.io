@@ -1,0 +1,34 @@
+    <header>
+      {%- if include.item.show_date %}
+      <time datetime="{{ include.item.date | date:"%Y-%m-%d" }}">{% include translated_date.html date=include.item.date format="%A %-d de %B de %Y" lang="es" %}</time>
+      {%- comment -%}
+      <time datetime="{{ include.item.date | date:"%Y-%m-%d" }}" class="almanaque">
+        <span class="year">{{ include.item.date | date:"%Y" }}</span>
+        <span class="month">{% include translated_date.html date=include.item.date format="%B" lang="es" %}</span>
+        <span class="day">{{ include.item.date | date:"%-d" }}</span>
+        <span class="weekday">{% include translated_date.html date=include.item.date format="%A" lang="es" %}</span>
+      </time>
+      {%- endcomment -%}
+      {%- endif -%}
+      {%- if include.item.title %}
+        {%- if include.item.subtitle %}
+      <hgroup>
+        <h1>{{ include.item.title }}</h1>
+        <p>{{ include.item.subtitle }}</p>
+      </hgroup>
+        {%- else -%}
+      <h1>{{ include.item.title }}</h1>
+        {%- endif -%}
+      {%- endif %}
+    </header>
+    {%- if include.item.featured_img %}
+      {%- if include.item.featured_img.zoom %}
+    <a class="post_image img_taped has_zoom" href="{{ include.item.featured_img.zoom | default:include.item.featured_img.src }}" data-lightbox="nupimage1" data-title="{{ include.item.title }}">
+      <img src="{{ include.item.featured_img.src }}" alt="{{ include.item.subtitle }}"{% if include.item.featured_img.width %} width="{{ include.item.featured_img.width }}"{% endif %}{% if include.item.featured_img.height %} height="{{ include.item.featured_img.height }}"{% endif %}>
+    </a>
+      {%- else -%}
+    <figure class="post_image img_taped">
+      <img src="{{ include.item.featured_img.src }}" alt="{{ include.item.subtitle }}"{% if include.item.featured_img.width %} width="{{ include.item.featured_img.width }}"{% endif %}{% if include.item.featured_img.height %} height="{{ include.item.featured_img.height }}"{% endif %}>
+    </figure
+      {%- endif %}
+    {% endif -%}

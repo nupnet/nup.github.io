@@ -1,6 +1,6 @@
 # Site settings
 title: NUP
-email: webmaster@nup.net.ar
+email: webmaster@nup.com.ar
 description: NUP Online, una vez más a los ponchazos en internet.
 baseurl: "" # the subpath of your site, e.g. /blog/ NOTA: No agregar barra al final.
 url: "https://www.nup.com.ar" # the base hostname & protocol for your site
@@ -24,45 +24,45 @@ defaults:
     scope:
       path: blog
     values:
-      layout: blogpost
+      layout: nup
+      show_date: true
       permalink: :categories/:year/:month/:day/:title:output_ext
   -
     scope:
       type: arte
     values:
-      layout: arte
+      layout: nup
+      use_lightbox: true
   -
     scope:
       type: articulos
     values:
-      layout: articulo
+      layout: nup
   -
     scope:
       type: personajes
     values:
-      layout: post
+      layout: nup
   -
     scope:
       type: relatos
     values:
-      layout: relato
+      layout: nup
   -
     scope:
       path: chapu
       type: relatos
     values:
-      layout: relato
+      layout: nup
       permalink: :categories/chapu/:title:output_ext
   -
     scope:
       path: rompeweb
       type: relatos
     values:
-      layout: relato
+      layout: nup
       permalink: :categories/rompeweb/:title:output_ext
 
 # Build settings
 markdown: kramdown
 
-# Para prueba local poner "production" en false
-production: true

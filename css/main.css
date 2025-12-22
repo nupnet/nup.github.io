@@ -163,6 +163,7 @@ main a[href^="https:"]:not([class])::after,
 .paginator [rel="prev"]::before,
 .paginator [rel="index"]::after,
 .post_fecha::after,
+header > time::after,
 body > footer nav a::before {
   font-family: 'nupicons';
   font-style: normal;
@@ -533,7 +534,8 @@ main > article {
  margin-bottom: 4ex;
 }
 
-main > header + article {
+main > header + article,
+main > article > header  {
  margin-top: 4ex;
 }
 
@@ -845,7 +847,8 @@ hr:not([class])::before {
 }
 
 
-.post_fecha {
+.post_fecha,
+header > time {
  display: block;
  margin-bottom: 4ex;
  text-align: right;
@@ -853,7 +856,8 @@ hr:not([class])::before {
  font-size: 75%;
 }
 
-.post_fecha::after {
+.post_fecha::after,
+header > time::after {
  content: '\e806';
  margin-right: .2em;
  margin-left: .5em;
