@@ -23,6 +23,7 @@ layout: null
  padding: 0;
 }
 
+
 html, body, table, input, textarea {
  font-family: 'Nunito', Verdana, sans-serif;
  font-size: var(--base-font-size);

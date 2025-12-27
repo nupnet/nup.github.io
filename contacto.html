@@ -1,16 +1,18 @@
 ---
 layout: bare
 title: Contacto
-header: |
-  <link rel="stylesheet" type="text/css" href="/css/contacto.css">
+#header: |
+#  <link rel="stylesheet" type="text/css" href="/css/contacto.css">
 ---
 <main>
-<section>
+<article>
   <div class="copete">Gracias por tu inter&eacute;s en <strong>NUP</strong>. Si deseas
   contactarte con nosotros, puedes escribir tu comentario, petici&oacute;n o
   amenaza en el formulario de m&aacute;s abajo. Prometemos leerlos a todos, y
   haremos nuestro mejor esfuerzo en no re&iacute;rnos demasiado.</div>
 
+  <p>Puedes enviar tu comentario por correo electr&oacute;nico a la siguiente dirección: <a href="mailto:webmaster@nup.com.ar?subject=Formulario%20de%20contacto">webmaster@nup.com.ar</a>.</p>
+{% comment %}
   <form action="https://formsubmit.co/4ed0f32cfec2bb252f1c94d2a213f098" method="post">
     <input type="hidden" name="_next" value="{{ "/contacto-ok.html" | absolute_url }}">
     <input type="text" name="_honey" style="display:none">
@@ -20,6 +22,6 @@ header: |
     </div></div>
     <button type="submit">Enviar comentario</button>
   </form>
-
-</section>
+{% endcomment %}
+</article>
 </main>
