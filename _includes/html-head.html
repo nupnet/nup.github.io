@@ -4,15 +4,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default:site.title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | remove: '"' | truncate: 160 | strip }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="RSS {{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}">
-  <link rel="icon" href="{{ "/favicon.ico" | prepend:site.baseurl }}" type="image/x-icon">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS {{ site.title }}" href="{{ "/feed.xml" | relative_url }}">
+  <link rel="icon" href="{{ "/favicon.ico" | relative_url }}" type="image/x-icon">
 {%- if page.use_lightbox or layout.use_lightbox %}
-  <link rel="stylesheet" type="text/css" href="{{ "/lib/lightbox2-2.8.2/css/lightbox.min.css" | prepend:site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/lib/lightbox2-2.8.2/css/lightbox.min.css" | relative_url }}">
+{%- endif %}
+  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
+{%- if page.use_font_serif or layout.use_font_serif %}
+  <link rel="stylesheet" href="{{ "/css/gentium_basic.fnt.css" | relative_url }}" type="text/css">
 {%- endif -%}
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend:site.baseurl }}">
-  {%- if page.use_font_serif or layout.use_font_serif %}
-  <link rel="stylesheet" href="{{ "/css/gentium_basic.fnt.css" | prepend:site.baseurl }}" type="text/css">
-  {%- endif -%}
-  {%- if page.header %}{{ page.header }}{% endif %}
+{%- if page.header %}{{ page.header }}{% endif %}
 </head>

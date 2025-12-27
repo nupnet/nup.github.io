@@ -2,7 +2,7 @@
 ---
 .hero--malevoychapu {
  background-color: #713288;
- background-image: url("{{ "/img/style/bg-sunburst-top.png" | prepend:site.baseurl }}"), 
+ background-image: url("{{ "/img/style/bg-sunburst-top.png" | relative_url }}"), 
  radial-gradient(ellipse at center bottom, white 0%, #E791E5 20%, #B356B5 60%, #713288 80%, #542368 90%, #000 100%);
  background-size: cover;
  background-position: center top;

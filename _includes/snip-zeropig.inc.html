@@ -27,7 +27,7 @@
 
         {%- unless include.sin_lista -%}
           <dt{% unless _lic %} class="sin_licencia"{% endunless %}>
-            <a href="{{ _slug | prepend:site.baseurl }}" data-lightbox="nupimage1" data-title="{{ image.name }}">{{ image.name }}</a>
+            <a href="{{ _slug | relative_url }}" data-lightbox="nupimage1" data-title="{{ image.name }}">{{ image.name }}</a>
           </dt>
           <dd{% unless _lic %} class="sin_licencia"{% endunless %}>
             {%- include snip-licencia-elem.inc.html licencia=_lic -%}

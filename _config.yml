@@ -4,7 +4,7 @@ email: webmaster@nup.com.ar
 description: NUP Online, una vez más a los ponchazos en internet.
 baseurl: "" # the subpath of your site, e.g. /blog/ NOTA: No agregar barra al final.
 url: "https://www.nup.com.ar" # the base hostname & protocol for your site
-blogurl: "https://blog.nup.com.ar"
+blogurl: "https://www.nup.com.ar/blog"
 timezone: America/Buenos_Aires
 permalink: :categories/:title:output_ext
 collections:
@@ -22,45 +22,36 @@ collections:
 defaults:
   -
     scope:
-      path: blog
+      path: ""
     values:
       layout: nup
+  -
+    scope:
+      path: "css/"
+    values:
+      layout: null
+  -
+    scope:
+      path: "blog/"
+    values:
       show_date: true
       permalink: :categories/:year/:month/:day/:title:output_ext
   -
     scope:
       type: arte
     values:
-      layout: nup
       use_lightbox: true
-  -
-    scope:
-      type: articulos
-    values:
-      layout: nup
-  -
-    scope:
-      type: personajes
-    values:
-      layout: nup
-  -
-    scope:
-      type: relatos
-    values:
-      layout: nup
   -
     scope:
       path: chapu
       type: relatos
     values:
-      layout: nup
       permalink: :categories/chapu/:title:output_ext
   -
     scope:
       path: rompeweb
       type: relatos
     values:
-      layout: nup
       permalink: :categories/rompeweb/:title:output_ext
 
 # Build settings

@@ -2,7 +2,7 @@
 ---
 .hero--artattack {
  background-color: white;
- background-image: url({{ "/img/style/bg-04.jpg" | prepend:site.baseurl }});
+ background-image: url({{ "/img/style/bg-04.jpg" | relative_url }});
 }
 
 .hero--artattack .hero__section-name,

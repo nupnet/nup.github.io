@@ -84,7 +84,7 @@ ul, ol, dl {
 }
 
 ul, dl {
- list-style: url({{ "/img/style/bullet-arrow-orange.png" | prepend:site.baseurl }});
+ list-style: url({{ "/img/style/bullet-arrow-orange.png" | relative_url }});
 }
 
 
@@ -236,7 +236,7 @@ header nav ul li {
 header nav ul a {
  display: block;
  margin: 7px 0;
- padding: 8px 15px;
+ padding: 8px 10px;
  min-height: 20px;
  color: #777;
  transition: color 100ms ease, transform 100ms ease;
@@ -279,7 +279,7 @@ body > footer {
  color: #666;
  font-size: 14pt;
  text-align: center;
- background: url("{{ "/img/style/chapu-jeta.png" | prepend:site.baseurl }}") left bottom no-repeat;
+ background: url("{{ "/img/style/chapu-jeta.png" | relative_url }}") left bottom no-repeat;
  min-height: 126px;
  position: relative; 
  border-top: 1px dashed #BBB;
@@ -372,12 +372,12 @@ body > footer nav a[href$="/atribuciones.html"]::before {
 }
 
 .hero--bg {
- background-image: url("{{ "/img/style/bg-gradienta.jpg" | prepend:site.baseurl }}");
+ background-image: url("{{ "/img/style/bg-gradienta.jpg" | relative_url }}");
 }
 
 .hero--arte {
  background-color: #F8672C;
- background-image: url(" {{ "/img/style/bg-cesta.png" | prepend:site.baseurl }}"), linear-gradient(to right, #845ec2, #a55dbd, #c15db5, #d95fab, #ec64a0, #f76e91, #fd7b84, #ff8a7a, #ffa26e, #ffbd66, #ffda65, #f9f871);
+ background-image: url(" {{ "/img/style/bg-cesta.png" | relative_url }}"), linear-gradient(to right, #845ec2, #a55dbd, #c15db5, #d95fab, #ec64a0, #f76e91, #fd7b84, #ff8a7a, #ffa26e, #ffbd66, #ffda65, #f9f871);
  background-blend-mode: multiply, normal;
  background-size: auto;
  background-repeat: repeat;
@@ -385,15 +385,15 @@ body > footer nav a[href$="/atribuciones.html"]::before {
 
 .hero--articulos,
 .hero--relatos {
- background-image: url("{{ "/img/style/bg-gradienta.jpg" | prepend:site.baseurl }}");
+ background-image: url("{{ "/img/style/bg-gradienta.jpg" | relative_url }}");
 }
 
 .hero--wired {
- background-image: url({{ "/img/style/bg-wired-01.jpg" | prepend:site.baseurl }});
+ background-image: url({{ "/img/style/bg-wired-01.jpg" | relative_url }});
 }
 
 .hero--link_dead {
- background: black url({{ "/img/style/bg-404.jpg" | prepend:site.baseurl }}) center bottom/cover no-repeat;
+ background: black url({{ "/img/style/bg-404.jpg" | relative_url }}) center bottom/cover no-repeat;
  padding-bottom: 0;
  margin-bottom: 0;
 }
@@ -503,7 +503,7 @@ body > footer nav a[href$="/atribuciones.html"]::before {
  background-color: #EEE;
  background-size: auto;
  background-repeat: repeat;
- background-image: url({{ "/img/style/bg-paper.png" | prepend:site.baseurl }});
+ background-image: url({{ "/img/style/bg-paper.png" | relative_url }});
 }
 
 .hero--paper,
@@ -572,7 +572,7 @@ main > article > p:last-of-type::after {
 }
 
 ul.Caracteristicas {
- list-style: url("{{ "/img/style/bullet-check-green.png" | prepend:site.baseurl }}");
+ list-style: url("{{ "/img/style/bullet-check-green.png" | relative_url }}");
 }
 
 .Pregunta {
@@ -654,11 +654,11 @@ ul.Caracteristicas {
 }
 
 .social-twitter {
- background: transparent url({{ "/img/style/icon-twitter.png" | prepend:site.baseurl }}) no-repeat center center;
+ background: transparent url({{ "/img/style/icon-twitter.png" | relative_url }}) no-repeat center center;
 }
 
 .social-facebook {
- background: transparent url({{ "/img/style/icon-facebook.png" | prepend:site.baseurl }}) no-repeat center center;
+ background: transparent url({{ "/img/style/icon-facebook.png" | relative_url }}) no-repeat center center;
 }
 
 
@@ -771,7 +771,7 @@ hr:not([class])::before {
 
 .seccion_relatos hr {
  background-color: transparent;
- background-image: url({{ "/img/style/flourish.svg" | prepend:site.baseurl }});
+ background-image: url({{ "/img/style/flourish.svg" | relative_url }});
  background-position: center center;
  background-repeat: no-repeat;
  background-size: contain;
@@ -795,7 +795,7 @@ hr:not([class])::before {
 .copete {
  position: relative;
  background-color: #FFFEDA;
- background: url({{ "/img/style/paper-broche.png" | prepend:site.baseurl }}) 1ex 1ex no-repeat, linear-gradient(180deg, #FEFCAF, #FFFEDA), #FFFEDA;
+ background: url({{ "/img/style/paper-broche.png" | relative_url }}) 1ex 1ex no-repeat, linear-gradient(180deg, #FEFCAF, #FFFEDA), #FFFEDA;
  box-shadow: 0 0 3px #DDD;
  border-radius: 3px;
  padding: 5ex 2.5em;
@@ -831,7 +831,7 @@ hr:not([class])::before {
  height: 125px;
  position: absolute;
  z-index: 1;
- background: transparent url("{{ "/img/style/paper-clip.png" | prepend:site.baseurl }}") no-repeat;
+ background: transparent url("{{ "/img/style/paper-clip.png" | relative_url }}") no-repeat;
  box-shadow: none;
  background-size: contain;
  top: -2px;
@@ -948,7 +948,7 @@ a[data-broken=""]::after {
  *============================================================================*/
 
 .lista-posts article {
- background: transparent url({{ "/img/style/icon-articulos.png" | prepend:site.baseurl }}) no-repeat top left;
+ background: transparent url({{ "/img/style/icon-articulos.png" | relative_url }}) no-repeat top left;
  padding-left: 64px;
  margin: 4ex 0;
  min-height: 48px;
@@ -969,11 +969,11 @@ a[data-broken=""]::after {
 }
 
 .lista-posts.articulos article {
- background-image: url({{ "/img/style/icon-articulos.png" | prepend:site.baseurl }});
+ background-image: url({{ "/img/style/icon-articulos.png" | relative_url }});
 }
 
 .lista-posts.relatos article {
- background-image: url({{ "/img/style/icon-relatos.png" | prepend:site.baseurl }});
+ background-image: url({{ "/img/style/icon-relatos.png" | relative_url }});
 }
 
 
@@ -1504,7 +1504,7 @@ textarea {
  font-family: 'Grape Nuts', cursive;
  font-size: 20pt;
  color: #32328D;
- background: url('{{ "/img/style/paper-bg-tape.png" | prepend:site.baseurl }}') center center no-repeat;
+ background: url('{{ "/img/style/paper-bg-tape.png" | relative_url }}') center center no-repeat;
  background-size: contain;
  transform: rotate(-2deg);
 }
@@ -1599,7 +1599,7 @@ textarea {
 
 .zombie_content > :first-child::before {
  content: '';
- background: url("{{ "/img/style/icon-zombie.svg" | prepend:site.baseurl }}");
+ background: url("{{ "/img/style/icon-zombie.svg" | relative_url }}");
  display: inline-block;
  width: 80px;
  height: 80px;

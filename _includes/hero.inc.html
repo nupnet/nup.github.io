@@ -1,7 +1,7 @@
 {%- if include.html_style -%}
   {%- assign _html_style=include.html_style -%}
 {%- elsif include.bg_img -%}
-  {%- assign _html_style=include.bg_img | prepend:site.baseurl | prepend:"background-image:url(" | append:")" -%}
+  {%- assign _html_style=include.bg_img | relative_url | prepend:"background-image:url(" | append:")" -%}
 {%- elsif include.bg_img_url -%}
   {%- assign _html_style=include.bg_img_url | prepend:"background-image:url(" | append:")" -%}
 {%- endif -%}
@@ -11,7 +11,7 @@
 {%- else %} hero--bg{%- endif -%}"
 {%- if _html_style %} style="{{- _html_style -}}"{%- endif -%}>
 {%- if include.img %}
-    <img src="{{ include.img.src }}"
+    <img src="{{ include.img.src | relative_url }}"
     {%- if include.img.alt %} alt="{{ include.img.alt }}"{%- endif -%}
     {%- if include.img.width %} width="{{ include.img.width }}"{%- endif -%}
     {%- if include.img.height %} height="{{ include.img.height }}"{%- endif %}>

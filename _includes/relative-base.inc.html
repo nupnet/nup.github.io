@@ -1,0 +1,1 @@
+<base href="{%- assign _page_nest_level = page.url | replace:'/',' ' | split:' ' -%}./{% for level in _page_nest_level offset: 1 %}../{% endfor %}">
