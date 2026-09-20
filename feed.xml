@@ -1,30 +1,208 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>NUP</title>
+    <description>NUP Online, una vez más a los ponchazos en internet.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Dec 2025 11:14:44 -0300</pubDate>
+    <lastBuildDate>Sat, 27 Dec 2025 11:14:44 -0300</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Hello future</title>
+        <description>&lt;header class=&quot;hero hero--wired&quot;&gt;
+    &lt;img src=&quot;/img/personajes/matar02.png&quot; alt=&quot;Super Matar 8 bits&quot; width=&quot;320&quot; height=&quot;407&quot;&gt;
+    &lt;h1&gt;Hello future&lt;/h1&gt;
+    &lt;h2&gt;Volviendo a las ra&amp;iacute;ces&lt;/h2&gt;
+    &lt;div class=&quot;hero__body&quot;&gt;
+&lt;p&gt;Muchas veces me han preguntado qu&amp;eacute; filtros usamos para lograr el efecto &lt;em&gt;retro&lt;/em&gt; en los sprites.&lt;/p&gt;
+&lt;p&gt;Mi respuesta siempre fue: &lt;em&gt;&amp;iquest;eeehh?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NUP&lt;/strong&gt;. Treinta a&amp;ntilde;os de pixel art.&lt;/p&gt;&lt;/div&gt;
+&lt;/header&gt;
+</description>
+        <pubDate>Mon, 29 Jan 2024 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/front/hello_future.html</link>
+        <guid isPermaLink="true">http://localhost:4000/front/hello_future.html</guid>
+        
+        
+        <category>front</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Una nueva esperanza</title>
+        <description>&lt;p&gt;Hace tanto que vengo posponiendo esto que no se por dónde empezar.  Fueron muchos los cambios en el sitio últimamente, pero casi todos internos, así que no me voy a poner a enumerarlos porque la mayoría ni se notan.  Solamente quiero destacar que incorporé a la sección &lt;a href=&quot;/blog&quot;&gt;blog&lt;/a&gt; las entradas del &lt;em&gt;Proyecto NUP 2012&lt;/em&gt;, y ya están en cola de espera las del viejo &lt;em&gt;PUN Online&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;También volvió el &lt;a href=&quot;/contacto.html&quot;&gt;formulario de contacto&lt;/a&gt;, así que pueden retomar la (in)sana costumbre de hacer catarsis en esta web.  No será un libro de quejas, pero se acerca bastante.&lt;/p&gt;
+
+&lt;p&gt;Pero la razón de ser de esta entrada, el &lt;em&gt;leitmotiv&lt;/em&gt;, es servir de hito, ya que cierra la última fase de las modificaciones estructurales importantes.  La idea es retomar el trabajo sobre el contenido en sí, hasta terminar con el &lt;a href=&quot;/articulos/expli_archivo.html&quot;&gt;material del archivo&lt;/a&gt; digital.  Luego de eso tendré que arremangarme para buscar el sustrato analógico, y evaluar si es restaurable a estas alturas.&lt;/p&gt;
+
+&lt;p&gt;Porque pasó mucho tiempo.  Bastante.&lt;/p&gt;
+
+&lt;p&gt;Eso no significa que se terminaron los cambios de diseño.  Hay muchos proyectados, pero van a tener que acomodarse al nuevo presupuesto de tiempo, y ciertamente no son prioritarios ahora mismo.  Ya les llegará su turno.&lt;/p&gt;
+
+&lt;p&gt;Y sin más que decir, me despido hasta la próxima actualización.  Sea cuando sea.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Apr 2022 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/2022/04/18/una-nueva-esperanza.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2022/04/18/una-nueva-esperanza.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Porque una explosión no es suficiente</title>
+        <description>&lt;p&gt;Hace más de un mes me dije que &lt;em&gt;la semana que viene voy a publicar una explicación&lt;/em&gt;.  La primer semana pasó sin actualizaciones, después la siguiente, y luego otra más…  ¿Qué puedo decir?  Estuve ocupado.&lt;/p&gt;
+
+&lt;p&gt;Me cuesta creer cuánto tiempo pasó desde la última vez.  Parece que hubiese sido ayer que cerraba la puerta de la oficina mientras pensaba “no va a ser mucho tiempo; el piloto automático se puede encargar”.  Pero fueron seis años.&lt;/p&gt;
+
+&lt;p&gt;Durante todo ese tiempo las cosas marcharon sin imprevistos, hasta el día de la explosión.  La programación del piloto automático preveía muchas cosas, pero no una bomba (al menos de este tipo).  Ese día tuve que regresar para el control de daños, aunque más no fuera momentáneamente.&lt;/p&gt;
+
+&lt;p&gt;Increíblemente no hubo muchos destrozos, aunque sí desorden y desparramo de cosas.  La base es robusta, así que con reconstruir una sección (mínima) de la fachada y reemplazar una puerta fue suficiente para volver a estar operativos.  Pero ver los archivos revueltos me recordó el trabajo pendiente, y que tendría que volver si quería terminar esta cruzada algún día.&lt;/p&gt;
+
+&lt;p&gt;Así que, herramienta en mano, demolí una pared interna que siempre me molestó, tiré a la basura muchos adornos innecesarios y di la primer mano de pintura –como para tapar un poco el nuevo destrozo.  ¿Es que acaso una bomba no fue suficiente?&lt;/p&gt;
+
+&lt;p&gt;La semana siguiente revisé que todo estuviera en su lugar, y un mes después aquí estoy.  Un nuevo plan, un nuevo proyecto.  Parece que el trabajo se expande en vez de achicarse.&lt;/p&gt;
+
+&lt;p&gt;Vuelvo a la obra.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 22 Jan 2022 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/2022/01/22/porque-una-explosion-no-es-suficiente.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2022/01/22/porque-una-explosion-no-es-suficiente.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Status</title>
+        <description>&lt;p&gt;&lt;em&gt;Non numerata pecunia.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Dec 2021 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/2021/12/14/status.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/12/14/status.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Status</title>
+        <description>&lt;p&gt;Sólo para que quede constancia: considero que el &lt;a href=&quot;https://shopify.github.io/liquid/&quot;&gt;lenguaje de plantillas Liquid&lt;/a&gt; es… &lt;em&gt;detestable&lt;/em&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Dec 2021 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/2021/12/12/status.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/12/12/status.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Ooohh Oh Ooooh</title>
+        <description>&lt;p&gt;Problemas técnicos. BRB.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Dec 2021 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/2021/12/10/ooohh-oh-ooooh.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/12/10/ooohh-oh-ooooh.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>FU .com</title>
+        <description>&lt;header class=&quot;hero hero--wired&quot;&gt;
+    &lt;img src=&quot;/img/style/icon-zombie.svg&quot; alt=&quot;Icono de un zombie&quot; width=&quot;130&quot; height=&quot;130&quot;&gt;
+    &lt;h1&gt;FU .com&lt;/h1&gt;
+    &lt;h2&gt;Siempre quise un .net&lt;/h2&gt;
+&lt;/header&gt;
+</description>
+        <pubDate>Thu, 02 Dec 2021 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/front/fu_dotcom.html</link>
+        <guid isPermaLink="true">http://localhost:4000/front/fu_dotcom.html</guid>
+        
+        
+        <category>front</category>
+        
+      </item>
+    
+      <item>
+        <title>Actualizaci&amp;oacute;n diferida n&amp;uacute;mero uno</title>
+        <description>&lt;p&gt;Trayendo para su deleite un espectacular pu&amp;ntilde;ado de novedades:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/articulos/billjaja.html&quot;&gt;Confesiones de la mujer de Bill Gates&lt;/a&gt; en la secci&amp;oacute;n de &lt;a href=&quot;/articulos&quot;&gt;art&amp;iacute;culos&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/articulos/nuevo-diccionario-de-la-rae.html&quot;&gt;Nuevo diccionario de la RAE&lt;/a&gt; en la secci&amp;oacute;n de &lt;a href=&quot;/articulos&quot;&gt;art&amp;iacute;culos&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/arte/archi014.html&quot;&gt;Chapu golpeado por Shiryu&lt;/a&gt; en la secci&amp;oacute;n de &lt;a href=&quot;/arte&quot;&gt;arte NUP&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si bien la actualizaci&amp;oacute;n est&amp;aacute; lista desde hace cuatro d&amp;iacute;as, reci&amp;eacute;n se publica hoy en el sitio debido a causas de fuerza mayor (o &lt;em&gt;vis maior&lt;/em&gt;, como me dice mi compa&amp;ntilde;ero). Disfruten.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Jun 2016 15:33:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/2016/06/04/1533.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/06/04/1533.html</guid>
+        
+        <category>o:prj2012</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Actualizaci&amp;oacute;n de la semana</title>
+        <description>&lt;p&gt;En esta entrega salen a la luz estos archivos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/articulos/autowin98.html&quot;&gt;Autom&amp;oacute;vil Windows 98&lt;/a&gt; en la secci&amp;oacute;n &lt;a href=&quot;/articulos&quot;&gt;art&amp;iacute;culos&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/articulos/carta-colon.html&quot;&gt;Carta de Crist&amp;oacute;bal Col&amp;oacute;n&lt;/a&gt; en la secci&amp;oacute;n &lt;a href=&quot;/articulos&quot;&gt;art&amp;iacute;culos&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/relatos/chapu/chapu07.html&quot;&gt;Chapuman VII&lt;/a&gt; en la secci&amp;oacute;n &lt;a href=&quot;/relatos&quot;&gt;relatos&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La semana estuvo ocupada, por eso pas&amp;oacute; tanto tiempo desde la &amp;uacute;ltima actualizaci&amp;oacute;n. Adem&amp;aacute;s del trabajo en s&amp;iacute;, hubo que lidiar con las nuevas medidas de seguridad impuestas luego del incidente del loco de la motosierra.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;No voy a entrar en detalles ahora, pero me basta con decir que el ingreso a las instalaciones ahora parece el abordaje de un vuelo internacional. La situaci&amp;oacute;n no pod&amp;iacute;a ocurrir en peor momento: recibimos la noticia de que un representante de una de las franquicias que representa la empresa vendr&amp;aacute; de visita dentro de poco. Dado que si le llegaran a cortar la cabeza con una motosierra no ser&amp;iacute;a bueno para los negocios, la seguridad del edificio est&amp;aacute; en nivel &lt;em&gt;paranoia&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Adem&amp;aacute;s corren rumores de que hubo alg&amp;uacute;n tipo de problema serio con la salida de campo del grupo de investigaci&amp;oacute;n, aunque no se sabe nada a ciencia cierta ya que la gerencia no ha dicho nada al respecto.&lt;/p&gt;
+
+&lt;p&gt;A pesar de todo esto, creo que la baja productividad de esta semana se debe principalmente a la falta de caf&amp;eacute;. Si bien lo estoy reemplazando con mate, noto una mayor tendencia a quedarme dormido y babeando sobre documentos importantes. Debido a las nuevas medidas de seguridad no puedo ingresar al edificio con provisiones del supermercado, con lo cual la &amp;uacute;nica opci&amp;oacute;n es solicitar la reposici&amp;oacute;n de suministros mediante los formularios correspondientes. El tiempo de respuesta t&amp;iacute;pico es de dos a tres semanas, pero imagino que este pedido va a demorar m&amp;aacute;s dado que el &amp;aacute;rea de compras tambi&amp;eacute;n est&amp;aacute; sin caf&amp;eacute;; escuch&amp;eacute; por ah&amp;iacute; que su oficina fue saqueada por los de contabilidad.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 May 2016 12:23:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/2016/05/24/1223.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/05/24/1223.html</guid>
+        
+        <category>o:prj2012</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>D&amp;iacute;a de internet</title>
+        <description>&lt;p&gt;Con motivo de la &lt;a href=&quot;https://es.wikipedia.org/wiki/D%C3%ADa_de_Internet&quot;&gt;celebraci&amp;oacute;n de este d&amp;iacute;a&lt;/a&gt;, sacamos del archivo algo que me pareci&amp;oacute; apropiado para la ocasi&amp;oacute;n: la historia de &lt;a href=&quot;https://www.nup.net.ar/relatos/rompeweb01.html&quot;&gt;Los Rompeweb: d&amp;iacute;a internet&lt;/a&gt; en la secci&amp;oacute;n &lt;a href=&quot;/relatos&quot;&gt;relatos&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Disfruten, pero no se envicien.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 May 2016 14:56:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/2016/05/17/1456.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/05/17/1456.html</guid>
+        
+        <category>o:prj2012</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
   </channel>
 </rss>

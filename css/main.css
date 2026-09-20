@@ -1,11 +1,163 @@
----
-layout: null
----
-{%- include fnt/nunito.css %}
-{%- include fnt/montserrat.css %}
-{%- include fnt/grape_nuts.css %}
-{%- include fnt/konanur_kaps.css %}
-{%- include fnt/nupicons.css %}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fnt/Nunito/Nunito-Regular.eot'); /* IE9 */
+  src: url('fnt/Nunito/Nunito-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fnt/Nunito/Nunito-Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('fnt/Nunito/Nunito-Regular.woff') format('woff'), /* Modern Browsers */
+    url('fnt/Nunito/Nunito-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fnt/Nunito/Nunito-Regular.svg#Nunito') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fnt/Nunito/Nunito-700.eot'); /* IE9 */
+  src: url('fnt/Nunito/Nunito-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fnt/Nunito/Nunito-700.woff2') format('woff2'), /* Modern Browsers */
+    url('fnt/Nunito/Nunito-700.woff') format('woff'), /* Modern Browsers */
+    url('fnt/Nunito/Nunito-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fnt/Nunito/Nunito-700.svg#Nunito') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fnt/Nunito/Nunito-Italic.eot'); /* IE9 */
+  src: url('fnt/Nunito/Nunito-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fnt/Nunito/Nunito-Italic.woff2') format('woff2'), /* Modern Browsers */
+    url('fnt/Nunito/Nunito-Italic.woff') format('woff'), /* Modern Browsers */
+    url('fnt/Nunito/Nunito-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fnt/Nunito/Nunito-Italic.svg#Nunito') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fnt/Nunito/Nunito-700italic.eot'); /* IE9 */
+  src: url('fnt/Nunito/Nunito-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fnt/Nunito/Nunito-700italic.woff2') format('woff2'), /* Modern Browsers */
+    url('fnt/Nunito/Nunito-700italic.woff') format('woff'), /* Modern Browsers */
+    url('fnt/Nunito/Nunito-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fnt/Nunito/Nunito-700italic.svg#Nunito') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fnt/Montserrat/Montserrat-Regular.eot'); /* IE9 */
+  src: url('fnt/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fnt/Montserrat/Montserrat-Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('fnt/Montserrat/Montserrat-Regular.woff') format('woff'), /* Modern Browsers */
+    url('fnt/Montserrat/Montserrat-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fnt/Montserrat/Montserrat-Regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fnt/Montserrat/Montserrat-700.eot'); /* IE9 */
+  src: url('fnt/Montserrat/Montserrat-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fnt/Montserrat/Montserrat-700.woff2') format('woff2'), /* Modern Browsers */
+    url('fnt/Montserrat/Montserrat-700.woff') format('woff'), /* Modern Browsers */
+    url('fnt/Montserrat/Montserrat-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fnt/Montserrat/Montserrat-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* grape-nuts-regular - latin */
+@font-face {
+  font-family: 'Grape Nuts';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fnt/GrapeNuts/grape-nuts-v1-latin-regular.svg#GrapeNuts') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'KonanurKaps';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fnt/konanur-kaps.regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'nupicons';
+  src: url('fnt/nupicons/nupicons.eot?1687333');
+  src: url('fnt/nupicons/nupicons.eot?1687333#iefix') format('embedded-opentype'),
+       url('fnt/nupicons/nupicons.woff2?1687333') format('woff2'),
+       url('fnt/nupicons/nupicons.woff?1687333') format('woff'),
+       url('fnt/nupicons/nupicons.ttf?1687333') format('truetype'),
+       url('fnt/nupicons/nupicons.svg?1687333#nupicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'nupicons';
+    src: url('fnt/nupicons/nupicons.svg?1687333#nupicons') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "nupicons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-resize-full:before { content: '\e801'; } /* '' */
+.icon-home:before { content: '\e802'; } /* '' */
+.icon-right-open:before { content: '\e803'; } /* '' */
+.icon-left-open:before { content: '\e804'; } /* '' */
+.icon-rss:before { content: '\e805'; } /* '' */
+.icon-calendar:before { content: '\e806'; } /* '' */
+.icon-briefcase:before { content: '\e807'; } /* '' */
+.icon-export:before { content: '\e808'; } /* '' */
+
 
 :root {
  --base-font-size: 15pt;
@@ -86,7 +238,7 @@ ul, ol, dl {
 }
 
 ul, dl {
- list-style: url({{ "/img/style/bullet-arrow-orange.png" | relative_url }});
+ list-style: url(/img/style/bullet-arrow-orange.png);
 }
 
 
@@ -281,7 +433,7 @@ body > footer {
  color: #666;
  font-size: 14pt;
  text-align: center;
- background: url("{{ "/img/style/chapu-jeta.png" | relative_url }}") left bottom no-repeat;
+ background: url("/img/style/chapu-jeta.png") left bottom no-repeat;
  min-height: 126px;
  position: relative; 
  border-top: 1px dashed #BBB;
@@ -374,12 +526,12 @@ body > footer nav a[href$="/atribuciones.html"]::before {
 }
 
 .hero--bg {
- background-image: url("{{ "/img/style/bg-gradienta.jpg" | relative_url }}");
+ background-image: url("/img/style/bg-gradienta.jpg");
 }
 
 .hero--arte {
  background-color: #F8672C;
- background-image: url(" {{ "/img/style/bg-cesta.png" | relative_url }}"), linear-gradient(to right, #845ec2, #a55dbd, #c15db5, #d95fab, #ec64a0, #f76e91, #fd7b84, #ff8a7a, #ffa26e, #ffbd66, #ffda65, #f9f871);
+ background-image: url(" /img/style/bg-cesta.png"), linear-gradient(to right, #845ec2, #a55dbd, #c15db5, #d95fab, #ec64a0, #f76e91, #fd7b84, #ff8a7a, #ffa26e, #ffbd66, #ffda65, #f9f871);
  background-blend-mode: multiply, normal;
  background-size: auto;
  background-repeat: repeat;
@@ -387,15 +539,15 @@ body > footer nav a[href$="/atribuciones.html"]::before {
 
 .hero--articulos,
 .hero--relatos {
- background-image: url("{{ "/img/style/bg-gradienta.jpg" | relative_url }}");
+ background-image: url("/img/style/bg-gradienta.jpg");
 }
 
 .hero--wired {
- background-image: url({{ "/img/style/bg-wired-01.jpg" | relative_url }});
+ background-image: url(/img/style/bg-wired-01.jpg);
 }
 
 .hero--link_dead {
- background: black url({{ "/img/style/bg-404.jpg" | relative_url }}) center bottom/cover no-repeat;
+ background: black url(/img/style/bg-404.jpg) center bottom/cover no-repeat;
  padding-bottom: 0;
  margin-bottom: 0;
 }
@@ -505,7 +657,7 @@ body > footer nav a[href$="/atribuciones.html"]::before {
  background-color: #EEE;
  background-size: auto;
  background-repeat: repeat;
- background-image: url({{ "/img/style/bg-paper.png" | relative_url }});
+ background-image: url(/img/style/bg-paper.png);
 }
 
 .hero--paper,
@@ -574,7 +726,7 @@ main > article > p:last-of-type::after {
 }
 
 ul.Caracteristicas {
- list-style: url("{{ "/img/style/bullet-check-green.png" | relative_url }}");
+ list-style: url("/img/style/bullet-check-green.png");
 }
 
 .Pregunta {
@@ -656,11 +808,11 @@ ul.Caracteristicas {
 }
 
 .social-twitter {
- background: transparent url({{ "/img/style/icon-twitter.png" | relative_url }}) no-repeat center center;
+ background: transparent url(/img/style/icon-twitter.png) no-repeat center center;
 }
 
 .social-facebook {
- background: transparent url({{ "/img/style/icon-facebook.png" | relative_url }}) no-repeat center center;
+ background: transparent url(/img/style/icon-facebook.png) no-repeat center center;
 }
 
 
@@ -773,7 +925,7 @@ hr:not([class])::before {
 
 .seccion_relatos hr {
  background-color: transparent;
- background-image: url({{ "/img/style/flourish.svg" | relative_url }});
+ background-image: url(/img/style/flourish.svg);
  background-position: center center;
  background-repeat: no-repeat;
  background-size: contain;
@@ -797,7 +949,7 @@ hr:not([class])::before {
 .copete {
  position: relative;
  background-color: #FFFEDA;
- background: url({{ "/img/style/paper-broche.png" | relative_url }}) 1ex 1ex no-repeat, linear-gradient(180deg, #FEFCAF, #FFFEDA), #FFFEDA;
+ background: url(/img/style/paper-broche.png) 1ex 1ex no-repeat, linear-gradient(180deg, #FEFCAF, #FFFEDA), #FFFEDA;
  box-shadow: 0 0 3px #DDD;
  border-radius: 3px;
  padding: 5ex 2.5em;
@@ -833,7 +985,7 @@ hr:not([class])::before {
  height: 125px;
  position: absolute;
  z-index: 1;
- background: transparent url("{{ "/img/style/paper-clip.png" | relative_url }}") no-repeat;
+ background: transparent url("/img/style/paper-clip.png") no-repeat;
  box-shadow: none;
  background-size: contain;
  top: -2px;
@@ -950,7 +1102,7 @@ a[data-broken=""]::after {
  *============================================================================*/
 
 .lista-posts article {
- background: transparent url({{ "/img/style/icon-articulos.png" | relative_url }}) no-repeat top left;
+ background: transparent url(/img/style/icon-articulos.png) no-repeat top left;
  padding-left: 64px;
  margin: 4ex 0;
  min-height: 48px;
@@ -971,11 +1123,11 @@ a[data-broken=""]::after {
 }
 
 .lista-posts.articulos article {
- background-image: url({{ "/img/style/icon-articulos.png" | relative_url }});
+ background-image: url(/img/style/icon-articulos.png);
 }
 
 .lista-posts.relatos article {
- background-image: url({{ "/img/style/icon-relatos.png" | relative_url }});
+ background-image: url(/img/style/icon-relatos.png);
 }
 
 
@@ -1506,7 +1658,7 @@ textarea {
  font-family: 'Grape Nuts', cursive;
  font-size: 20pt;
  color: #32328D;
- background: url('{{ "/img/style/paper-bg-tape.png" | relative_url }}') center center no-repeat;
+ background: url('/img/style/paper-bg-tape.png') center center no-repeat;
  background-size: contain;
  transform: rotate(-2deg);
 }
@@ -1601,7 +1753,7 @@ textarea {
 
 .zombie_content > :first-child::before {
  content: '';
- background: url("{{ "/img/style/icon-zombie.svg" | relative_url }}");
+ background: url("/img/style/icon-zombie.svg");
  display: inline-block;
  width: 80px;
  height: 80px;

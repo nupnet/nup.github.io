@@ -1,9 +1,6 @@
----
-layout: null
----
 .hero--artattack {
  background-color: white;
- background-image: url({{ "/img/style/bg-04.jpg" | relative_url }});
+ background-image: url(/img/style/bg-04.jpg);
 }
 
 .hero--artattack .hero__section-name,

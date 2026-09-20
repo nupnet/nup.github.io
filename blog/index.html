@@ -1,22 +1,119 @@
----
-layout: bare
-title: "Blog"
-permalink: :path/:basename:output_ext
----
-<main>
-{% include hero.html %}
-{%- for post in site.categories.blog -%}
-  {%- assign currentdate = post.date | date: "%Y" -%}
-  {%- if currentdate != date -%}
-    {%- unless forloop.first %}
-    </ul></section>{%- endunless %}
-    <section>
-    <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog</title>
+  <meta name="description" content="NUP Online, una vez más a los ponchazos en internet.">
+  <link rel="canonical" href="http://localhost:4000/blog/">
+  <link rel="alternate" type="application/rss+xml" title="RSS NUP" href="/feed.xml">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+  <body>
+<header>
+  <nav>
+    <a href="/" title="P&aacute;gina principal de NUP" class="site-logo"><img width="100" height="50" src="/img/comun/logo-light.png" alt="Logo de NUP"></a>
     <ul>
-    {%- assign date = currentdate -%}
-  {%- endif %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {%- if forloop.last %}
-    </ul></section>{%- endif -%}
-{%- endfor %}
+      <li><a href="/arte/index.html">Arte</a></li>
+      <li><a href="/relatos/index.html">Relatos</a></li>
+      <li><a href="/articulos/index.html">Art&iacute;culos</a></li>
+      <li><a class="active" href="/blog/index.html">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<header class="hero hero--bg">
+    <h1>Blog</h1>
+</header>
+
+    <section>
+    <h2 id="y2022">2022</h2>
+    <ul>
+      <li><a href="/blog/2022/04/18/una-nueva-esperanza.html">Una nueva esperanza</a></li>
+      <li><a href="/blog/2022/01/22/porque-una-explosion-no-es-suficiente.html">Porque una explosión no es suficiente</a></li>
+    </ul></section>
+    <section>
+    <h2 id="y2021">2021</h2>
+    <ul>
+      <li><a href="/blog/2021/12/14/status.html">Status</a></li>
+      <li><a href="/blog/2021/12/12/status.html">Status</a></li>
+      <li><a href="/blog/2021/12/10/ooohh-oh-ooooh.html">Ooohh Oh Ooooh</a></li>
+    </ul></section>
+    <section>
+    <h2 id="y2016">2016</h2>
+    <ul>
+      <li><a href="/blog/2016/06/04/1533.html">Actualizaci&oacute;n diferida n&uacute;mero uno</a></li>
+      <li><a href="/blog/2016/05/24/1223.html">Actualizaci&oacute;n de la semana</a></li>
+      <li><a href="/blog/2016/05/17/1456.html">D&iacute;a de internet</a></li>
+      <li><a href="/blog/2016/05/16/2211.html">Lunes sin caf&eacute;</a></li>
+      <li><a href="/blog/2016/05/13/2348.html">Mar&hellip; digo, viernes 13</a></li>
+      <li><a href="/blog/2016/05/10/1923.html">De Chapu, pol&iacute;tica y Twitter</a></li>
+      <li><a href="/blog/2016/05/06/0012.html">&iquest;Qu&eacute; tienen en com&uacute;n el handball, el heavy metal y Chapu?</a></li>
+      <li><a href="/blog/2016/05/03/0118.html">Un nuevo sabor en Am&eacute;rica Latina</a></li>
+      <li><a href="/blog/2016/05/01/2244.html">Proyecto PDPAN: día 39</a></li>
+      <li><a href="/blog/2016/04/27/2327.html">Proyecto PDPAN: día número 34</a></li>
+      <li><a href="/blog/2016/04/25/2331.html">Historia del proyecto PDPAN</a></li>
+      <li><a href="/blog/2016/04/24/2332.html">Proyecto PDPAN: d&iacute;a 31</a></li>
+    </ul></section>
+    <section>
+    <h2 id="y2012">2012</h2>
+    <ul>
+      <li><a href="/blog/2012/07/15/0005.html">Y entonces volvimos... otra vez</a></li>
+    </ul></section>
+    <section>
+    <h2 id="y2006">2006</h2>
+    <ul>
+      <li><a href="/blog/2006/06/21/el-lado-oscuro-de-linux.html">El lado oscuro de Linux</a></li>
+      <li><a href="/blog/2006/06/16/un-video-comico-encontrado-en-internet.html">Un video c&oacute;mico encontrado en internet</a></li>
+      <li><a href="/blog/2006/04/12/lo-que-me-faltaba-spam-en-el-celular.html">Lo que me faltaba, spam en el celular</a></li>
+      <li><a href="/blog/2006/03/27/ya-casi-ni-me-acuerdo-de-como-postear-en-el-blog.html">Ya casi ni me acuerdo de c&oacute;mo postear en el blog</a></li>
+      <li><a href="/blog/2006/02/11/yo-y-mis-ideas.html">Yo y mis ideas</a></li>
+      <li><a href="/blog/2006/02/10/html-o-xhtml-datis-decuestion.html">HTML o XHTML, datis decuestion</a></li>
+      <li><a href="/blog/2006/02/06/con-la-musica-a-otra-parte.html">Con la m&uacute;sica a otra parte</a></li>
+      <li><a href="/blog/2006/01/30/operativo-alegria-verde.html">Operativo alegr&iacute;a verde</a></li>
+      <li><a href="/blog/2006/01/13/los-sonidos-del-silencio.html">Los sonidos del silencio</a></li>
+      <li><a href="/blog/2006/01/02/enjoy-the-silence.html">Enjoy the silence</a></li>
+    </ul></section>
+    <section>
+    <h2 id="y2005">2005</h2>
+    <ul>
+      <li><a href="/blog/2005/10/26/bueno-ya-los-votamos-ahora-van-a-laburar.html">Bueno, ya los votamos, &iquest;ahora van a laburar?</a></li>
+      <li><a href="/blog/2005/10/17/un-politico-sincero.html">Un pol&iacute;tico sincero</a></li>
+      <li><a href="/blog/2005/10/13/nueva-version-100-rapidito-y-un-libro-de-visitas-de-regalo.html">Nueva versi&#243;n: 100% rapidito y un libro de visitas de regalo</a></li>
+      <li><a href="/blog/2005/09/30/notan-algo-diferente.html">&iquest;Notan algo diferente?</a></li>
+      <li><a href="/blog/2005/09/15/vamos-a-ver-a-ver-la-tele.html">Vamos a ver, a ver la tele</a></li>
+      <li><a href="/blog/2005/08/30/vale-por-un-post.html">Vale por un post</a></li>
+      <li><a href="/blog/2005/08/26/vientos-de-cambio.html">Vientos de cambio</a></li>
+      <li><a href="/blog/2005/06/30/escribo-mucho.html">&iquest;Escribo mucho?</a></li>
+      <li><a href="/blog/2005/06/30/se-que-digo-esto-una-vez-al-ano.html">S&eacute; que digo esto una vez al a&ntilde;o...</a></li>
+      <li><a href="/blog/2005/01/26/el-regreso-de-los-muertos-vivos.html">El regreso de los muertos vivos</a></li>
+    </ul></section>
+    <section>
+    <h2 id="y2003">2003</h2>
+    <ul>
+      <li><a href="/blog/2003/10/08/20031008.html">Editorial #7</a></li>
+      <li><a href="/blog/2003/09/05/20030905.html">Editorial #6</a></li>
+      <li><a href="/blog/2003/08/22/20030822.html">Editorial #5</a></li>
+      <li><a href="/blog/2003/05/22/20030522.html">Editorial #4</a></li>
+      <li><a href="/blog/2003/05/07/20030507.html">Editorial #3</a></li>
+      <li><a href="/blog/2003/05/01/20030501.html">Editorial #2</a></li>
+      <li><a href="/blog/2003/04/10/20030410.html">Editorial #1</a></li>
+      <li><a href="/blog/2003/01/01/0.html">Editorial #0</a></li>
+    </ul></section>
 </main>
+
+<footer>
+  <nav>
+    <a href="/contacto.html" rel="author">Contacto</a>
+    <a href="/feed.xml">RSS</a>
+    <a href="/atribuciones.html" rel="license">Atribuciones</a>
+  </nav>
+  <p><small>Copyright &copy; 2002-2022 NUP.</small> <small>Todos los derechos reservados.</small></p>
+</footer>
+    <a href="#"><span>Volver arriba &#8593;</span></a>
+  </body>
+</html>

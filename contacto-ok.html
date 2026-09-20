@@ -1,26 +1,60 @@
----
-layout: bare
-title: Tu mensaje fue enviado
-header: |
-  <style>
-    .hero {
-      background: #0093E9 linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-    }
-    .hero img {
-      max-width: 40% !important;
-    }
-  </style>
----
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tu mensaje fue enviado</title>
+  <meta name="description" content="NUP Online, una vez más a los ponchazos en internet.">
+  <link rel="canonical" href="http://localhost:4000/contacto-ok.html">
+  <link rel="alternate" type="application/rss+xml" title="RSS NUP" href="/feed.xml">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/main.css"><style>
+  .hero {
+    background: #0093E9 linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  }
+  .hero img {
+    max-width: 40% !important;
+  }
+</style>
+
+</head>
+
+  <body>
+<header>
+  <nav>
+    <a href="/" title="P&aacute;gina principal de NUP" class="site-logo"><img width="100" height="50" src="/img/comun/logo-light.png" alt="Logo de NUP"></a>
+    <ul>
+      <li><a href="/arte/index.html">Arte</a></li>
+      <li><a href="/relatos/index.html">Relatos</a></li>
+      <li><a href="/articulos/index.html">Art&iacute;culos</a></li>
+      <li><a href="/blog/index.html">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+
 <main>
   <header class="hero">
-    <h1>{{ page.title }}</h1>
-    <img src="{{ "/img/hero/email.png" | relative_url }}" alt="Ilustraci&oacute;n de una carta o sobre postal.">
+    <h1>Tu mensaje fue enviado</h1>
+    <img src="/img/hero/email.png" alt="Ilustraci&oacute;n de una carta o sobre postal.">
     <div class="hero__body">
       <h2>Gracias por comunicarte con nosotros</h2>
       <p>No podemos esperar a leer tus palabras.</p>
       <p>Si pasan nuestro filtro de spam, claro.</p>
       <p>Y si no tenemos nada mejor que hacer.</p>
     </div>
-    <a href="{{ site.baseurl | prepend:site.url }}/" class="btn btn-primary btn-lg">Ir a la p&aacute;gina principal</a>
+    <a href="http://localhost:4000/" class="btn btn-primary btn-lg">Ir a la p&aacute;gina principal</a>
   </header>
 </main>
+
+<footer>
+  <nav>
+    <a href="/contacto.html" rel="author">Contacto</a>
+    <a href="/feed.xml">RSS</a>
+    <a href="/atribuciones.html" rel="license">Atribuciones</a>
+  </nav>
+  <p><small>Copyright &copy; 2002-2022 NUP.</small> <small>Todos los derechos reservados.</small></p>
+</footer>
+    <a href="#"><span>Volver arriba &#8593;</span></a>
+  </body>
+</html>
