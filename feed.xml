@@ -3,10 +3,10 @@
   <channel>
     <title>NUP</title>
     <description>NUP Online, una vez más a los ponchazos en internet.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Dec 2025 11:14:44 -0300</pubDate>
-    <lastBuildDate>Sat, 27 Dec 2025 11:14:44 -0300</lastBuildDate>
+    <link>https://www.nup.com.ar/</link>
+    <atom:link href="https://www.nup.com.ar/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 Sep 2026 18:22:51 -0300</pubDate>
+    <lastBuildDate>Sun, 20 Sep 2026 18:22:51 -0300</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -22,8 +22,8 @@
 &lt;/header&gt;
 </description>
         <pubDate>Mon, 29 Jan 2024 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/front/hello_future.html</link>
-        <guid isPermaLink="true">http://localhost:4000/front/hello_future.html</guid>
+        <link>https://www.nup.com.ar/front/hello_future.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/front/hello_future.html</guid>
         
         
         <category>front</category>
@@ -45,8 +45,8 @@
 &lt;p&gt;Y sin más que decir, me despido hasta la próxima actualización.  Sea cuando sea.&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Apr 2022 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/blog/2022/04/18/una-nueva-esperanza.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2022/04/18/una-nueva-esperanza.html</guid>
+        <link>https://www.nup.com.ar/blog/2022/04/18/una-nueva-esperanza.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/blog/2022/04/18/una-nueva-esperanza.html</guid>
         
         
         <category>blog</category>
@@ -70,8 +70,8 @@
 &lt;p&gt;Vuelvo a la obra.&lt;/p&gt;
 </description>
         <pubDate>Sat, 22 Jan 2022 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/blog/2022/01/22/porque-una-explosion-no-es-suficiente.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2022/01/22/porque-una-explosion-no-es-suficiente.html</guid>
+        <link>https://www.nup.com.ar/blog/2022/01/22/porque-una-explosion-no-es-suficiente.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/blog/2022/01/22/porque-una-explosion-no-es-suficiente.html</guid>
         
         
         <category>blog</category>
@@ -83,8 +83,8 @@
         <description>&lt;p&gt;&lt;em&gt;Non numerata pecunia.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Dec 2021 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/blog/2021/12/14/status.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2021/12/14/status.html</guid>
+        <link>https://www.nup.com.ar/blog/2021/12/14/status.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/blog/2021/12/14/status.html</guid>
         
         
         <category>blog</category>
@@ -96,8 +96,8 @@
         <description>&lt;p&gt;Sólo para que quede constancia: considero que el &lt;a href=&quot;https://shopify.github.io/liquid/&quot;&gt;lenguaje de plantillas Liquid&lt;/a&gt; es… &lt;em&gt;detestable&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Dec 2021 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/blog/2021/12/12/status.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2021/12/12/status.html</guid>
+        <link>https://www.nup.com.ar/blog/2021/12/12/status.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/blog/2021/12/12/status.html</guid>
         
         
         <category>blog</category>
@@ -109,8 +109,8 @@
         <description>&lt;p&gt;Problemas técnicos. BRB.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Dec 2021 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/blog/2021/12/10/ooohh-oh-ooooh.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2021/12/10/ooohh-oh-ooooh.html</guid>
+        <link>https://www.nup.com.ar/blog/2021/12/10/ooohh-oh-ooooh.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/blog/2021/12/10/ooohh-oh-ooooh.html</guid>
         
         
         <category>blog</category>
@@ -126,8 +126,8 @@
 &lt;/header&gt;
 </description>
         <pubDate>Thu, 02 Dec 2021 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/front/fu_dotcom.html</link>
-        <guid isPermaLink="true">http://localhost:4000/front/fu_dotcom.html</guid>
+        <link>https://www.nup.com.ar/front/fu_dotcom.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/front/fu_dotcom.html</guid>
         
         
         <category>front</category>
@@ -146,8 +146,8 @@
 &lt;p&gt;Si bien la actualizaci&amp;oacute;n est&amp;aacute; lista desde hace cuatro d&amp;iacute;as, reci&amp;eacute;n se publica hoy en el sitio debido a causas de fuerza mayor (o &lt;em&gt;vis maior&lt;/em&gt;, como me dice mi compa&amp;ntilde;ero). Disfruten.&lt;/p&gt;
 </description>
         <pubDate>Sat, 04 Jun 2016 15:33:00 -0300</pubDate>
-        <link>http://localhost:4000/blog/2016/06/04/1533.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/06/04/1533.html</guid>
+        <link>https://www.nup.com.ar/blog/2016/06/04/1533.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/blog/2016/06/04/1533.html</guid>
         
         <category>o:prj2012</category>
         
@@ -177,8 +177,8 @@
 &lt;p&gt;A pesar de todo esto, creo que la baja productividad de esta semana se debe principalmente a la falta de caf&amp;eacute;. Si bien lo estoy reemplazando con mate, noto una mayor tendencia a quedarme dormido y babeando sobre documentos importantes. Debido a las nuevas medidas de seguridad no puedo ingresar al edificio con provisiones del supermercado, con lo cual la &amp;uacute;nica opci&amp;oacute;n es solicitar la reposici&amp;oacute;n de suministros mediante los formularios correspondientes. El tiempo de respuesta t&amp;iacute;pico es de dos a tres semanas, pero imagino que este pedido va a demorar m&amp;aacute;s dado que el &amp;aacute;rea de compras tambi&amp;eacute;n est&amp;aacute; sin caf&amp;eacute;; escuch&amp;eacute; por ah&amp;iacute; que su oficina fue saqueada por los de contabilidad.&lt;/p&gt;
 </description>
         <pubDate>Tue, 24 May 2016 12:23:00 -0300</pubDate>
-        <link>http://localhost:4000/blog/2016/05/24/1223.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/05/24/1223.html</guid>
+        <link>https://www.nup.com.ar/blog/2016/05/24/1223.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/blog/2016/05/24/1223.html</guid>
         
         <category>o:prj2012</category>
         
@@ -194,8 +194,8 @@
 &lt;p&gt;Disfruten, pero no se envicien.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 May 2016 14:56:00 -0300</pubDate>
-        <link>http://localhost:4000/blog/2016/05/17/1456.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/05/17/1456.html</guid>
+        <link>https://www.nup.com.ar/blog/2016/05/17/1456.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/blog/2016/05/17/1456.html</guid>
         
         <category>o:prj2012</category>
         
