@@ -640,8 +640,6 @@ main > article > p:first-of-type::first-letter {
  margin-right: 0.5rem;
  text-indent: 0;
  text-transform: uppercase;
- text-shadow: #DDD 0 0 1ex;
- color: #337AB7;
  color: #555;
 }
 
