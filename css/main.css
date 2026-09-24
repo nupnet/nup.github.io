@@ -104,7 +104,7 @@ html, body, table, input, textarea {
  font-weight: normal;
  font-size: var(--base-font-size);
  line-height: 150%;
- color: #333;
+ color: #222;
 }
 
 body {
@@ -123,12 +123,16 @@ article {
 h1, h2, h3, h4, h5, h6, .hero__subtitle, .caution h2, .stamp {
  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
  font-weight: normal;
+ line-height: 1.15;
 }
 
 h1, h2, h3, h4, h5, h6, .hero__subtitle {
  color: #8AB933;
  margin-top: 2ex;
- margin-bottom: 2ex;
+ margin-bottom: 1ex;
+}
+
+h1 {
 }
 
 img {
@@ -254,14 +258,12 @@ body > footer nav a::before {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
+  margin-left: .2em;
   margin-right: .2em;
   text-align: center;
   font-variant: normal;
   text-transform: none;
-
   line-height: 1em;
-
-  margin-left: .2em;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -448,7 +450,7 @@ body > footer nav a[href$="/atribuciones.html"]::before {
 }
 
 .hero--light h1, .hero--light .hero__subtitle, .hero--light h2 {
- color: #333;
+ color: #222;
 }
 
 .hero--bg {
@@ -630,17 +632,17 @@ main > article li {
 }
 
 main > article > p:first-of-type::first-letter {
- display: inline-block;
- float: left;
  font-family: 'KonanurKaps', display;
  font-weight: normal;
  font-style: normal;
- font-size: 48pt;
+ display: inline-block;
+ float: left;
+ margin-right: 0.25rem;
+ font-size: 350%;
  line-height: 1;
- margin-right: 0.5rem;
  text-indent: 0;
  text-transform: uppercase;
- color: #555;
+ color: #522;
 }
 
 main > article > p:last-of-type::after {
@@ -927,14 +929,14 @@ hr:not([class])::before {
 .post_fecha,
 header > time {
  display: block;
- margin-bottom: 4ex;
+ margin-bottom: 2ex;
  text-align: right;
  font-style: italic;
  font-size: 75%;
 }
 
-.post_fecha::after,
-header > time::after {
+.post_fecha:not(.almanaque)::after,
+header > time:not(.almanaque)::after {
  content: '\e806';
  margin-right: .2em;
  margin-left: .5em;
