@@ -89,7 +89,11 @@
 
 :root {
  --base-font-size: 14pt;
- --content-width: 65ch;
+ --content-width: 40rem;
+}
+
+@view-transition {
+  navigation: auto;
 }
 
 * {
@@ -120,6 +124,11 @@ article {
  overflow-wrap: anywhere;
 }
 
+article h1 {
+  text-align: center;
+  letter-spacing: -1pt;
+}
+
 h1, h2, h3, h4, h5, h6, .hero__subtitle, .caution h2, .stamp {
  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
  font-weight: normal;
@@ -130,9 +139,6 @@ h1, h2, h3, h4, h5, h6, .hero__subtitle {
  color: #8AB933;
  margin-top: 2ex;
  margin-bottom: 1ex;
-}
-
-h1 {
 }
 
 img {
@@ -344,6 +350,9 @@ header nav ul .active {
 @media only screen and (max-width: 992px) {
  header nav {
   text-align: center;
+ }
+ header nav .site-logo img {
+   margin-top: 1.5ex;
  }
  header nav ul {
   float: none;
