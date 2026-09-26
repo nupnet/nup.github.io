@@ -5,16 +5,17 @@
     <description>NUP Online, una vez más a los ponchazos en internet.</description>
     <link>https://www.nup.com.ar/</link>
     <atom:link href="https://www.nup.com.ar/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Sep 2026 02:16:04 -0300</pubDate>
-    <lastBuildDate>Fri, 25 Sep 2026 02:16:04 -0300</lastBuildDate>
+    <pubDate>Sat, 26 Sep 2026 02:31:37 -0300</pubDate>
+    <lastBuildDate>Sat, 26 Sep 2026 02:31:37 -0300</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
         <title>Hello future</title>
         <description>&lt;header class=&quot;hero hero--wired&quot;&gt;
-    &lt;img src=&quot;/img/personajes/matar02.png&quot; alt=&quot;Super Matar 8 bits&quot; width=&quot;320&quot; height=&quot;407&quot;&gt;
-    &lt;h1&gt;Hello future&lt;/h1&gt;
-    &lt;h2&gt;Volviendo a las ra&amp;iacute;ces&lt;/h2&gt;
+    &lt;img src=&quot;/img/personajes/matar02.png&quot; alt=&quot;Super Matar 8 bits&quot; width=&quot;320&quot; height=&quot;407&quot;&gt;&lt;hgroup&gt;
+      &lt;h1&gt;Hello future&lt;/h1&gt;
+      &lt;p&gt;Volviendo a las ra&amp;iacute;ces&lt;/p&gt;
+    &lt;/hgroup&gt;
     &lt;div class=&quot;hero__body&quot;&gt;
 &lt;p&gt;Muchas veces me han preguntado qu&amp;eacute; filtros usamos para lograr el efecto &lt;em&gt;retro&lt;/em&gt; en los sprites.&lt;/p&gt;
 &lt;p&gt;Mi respuesta siempre fue: &lt;em&gt;&amp;iquest;eeehh?&lt;/em&gt;&lt;/p&gt;
@@ -120,9 +121,10 @@
       <item>
         <title>FU .com</title>
         <description>&lt;header class=&quot;hero hero--wired&quot;&gt;
-    &lt;img src=&quot;/img/style/icon-zombie.svg&quot; alt=&quot;Icono de un zombie&quot; width=&quot;130&quot; height=&quot;130&quot;&gt;
-    &lt;h1&gt;FU .com&lt;/h1&gt;
-    &lt;h2&gt;Siempre quise un .net&lt;/h2&gt;
+    &lt;img src=&quot;/img/style/icon-zombie.svg&quot; alt=&quot;Icono de un zombie&quot; width=&quot;130&quot; height=&quot;130&quot;&gt;&lt;hgroup&gt;
+      &lt;h1&gt;FU .com&lt;/h1&gt;
+      &lt;p&gt;Siempre quise un .net&lt;/p&gt;
+    &lt;/hgroup&gt;
 &lt;/header&gt;
 </description>
         <pubDate>Thu, 02 Dec 2021 00:00:00 -0300</pubDate>

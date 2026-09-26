@@ -120,15 +120,6 @@ nav, main, header, footer, article, section {
  display: block;
 }
 
-article {
- overflow-wrap: anywhere;
-}
-
-article h1 {
-  text-align: center;
-  letter-spacing: -1pt;
-}
-
 h1, h2, h3, h4, h5, h6, .hero__subtitle, .caution h2, .stamp {
  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
  font-weight: normal;
@@ -136,10 +127,23 @@ h1, h2, h3, h4, h5, h6, .hero__subtitle, .caution h2, .stamp {
 }
 
 h1, h2, h3, h4, h5, h6, .hero__subtitle {
- color: #8AB933;
  margin-top: 2ex;
  margin-bottom: 1ex;
+ color: rebeccapurple;
 }
+
+article {
+ overflow-wrap: anywhere;
+}
+
+article header {
+  text-align: center;
+}
+
+article h1 {
+  letter-spacing: -1;
+}
+
 
 img {
  max-width: 100%;
@@ -333,7 +337,7 @@ header nav ul a {
 }
 
 header nav ul a:focus, header nav ul a:hover {
- color: #333;
+ color: rebeccapurple;
 }
 
 
@@ -651,7 +655,7 @@ main > article > p:first-of-type::first-letter {
  line-height: 1;
  text-indent: 0;
  text-transform: uppercase;
- color: #522;
+ color: rebeccapurple;
 }
 
 main > article > p:last-of-type::after {
