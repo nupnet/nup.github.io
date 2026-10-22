@@ -1091,6 +1091,7 @@ a[data-broken=""]::after {
 
 
 
+.lista-mosaico,
 .links {
  margin-top: 4ex;
  margin-bottom: 4ex;
@@ -1099,7 +1100,8 @@ a[data-broken=""]::after {
  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
 }
 
-.links article {
+.card:not(.lista-mosaico),
+.lista-mosaico.card > * {
  background-color: white;
  border: var(--card-border);
  border-radius: var(--card-border-radius);
@@ -1108,7 +1110,8 @@ a[data-broken=""]::after {
  position: relative;
 }
 
-.links article :is(h2, h3) {
+.card :is(h2, h3),
+.lista-mosaico.card > * :is(h2, h3) {
  margin: 0;
  padding: 1ex 2ex;
  font-family: var(--base-font-family);
@@ -1117,13 +1120,15 @@ a[data-broken=""]::after {
  line-height: var(--base-line-height);
 }
 
-.links article :is(h2, h3) a {
+.card :is(h2, h3) a,
+.lista-mosaico.card > * :is(h2, h3) a {
  margin: 0;
  text-decoration: none;
  font-weight: normal;
 }
 
-.links article :is(h2, h3) a::before {
+.card :is(h2, h3) a::before,
+.lista-mosaico.card > * :is(h2, h3) a::before {
  content: "";
  position: absolute;
  top: 0;
@@ -1132,40 +1137,50 @@ a[data-broken=""]::after {
  z-index: 1;
 }
 
-.links article figure {
+.card figure,
+.lista-mosaico.card > * figure {
  overflow: clip;
  background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
 }
 
-.links article img {
+.card img,
+.lista-mosaico.card > * img {
  margin: 0;
  width: 100%;
  background-size: cover;
  transition: 0.3s ease;
 }
 
-.links article figure,
-.links article img,
-.links article :is(h2, h3) a::before {
+.card figure,
+.lista-mosaico.card > * figure,
+.card img,
+.lista-mosaico.card > * img,
+.card :is(h2, h3) a::before,
+.lista-mosaico.card > * :is(h2, h3) a::before {
  height: 150px;
 }
 
-.links article p {
+.card p,
+.lista-mosaico.card > * p {
  margin: 0 2ex 1ex;
 }
 
-.links:hover img {
+.lista-mosaico:hover .card img,
+.lista-mosaico.card:hover img {
  filter: grayscale(1);
 }
 
-.links article:hover img {
+.lista-mosaico .card:hover img,
+.lista-mosaico.card > *:hover img {
  filter: grayscale(0);
  transform: scale(1.1);
 }
 
 
 
-.with-sidebar {
+.left-sidebar,
+.right-sidebar,
+.two-columns {
  margin-top: 2ex;
  margin-bottom: 2ex;
  display: flex;
@@ -1173,21 +1188,29 @@ a[data-broken=""]::after {
  gap: 1em;
 }
 
-.with-sidebar article {
+.two-columns > *{
+ flex: 1 calc(50% - 0.5rem);
+ min-width: 12rem;
+}
+
+.left-sidebar > :first-child,
+.right-sidebar > :last-child {
  flex: 1 calc(70% - 0.5em);
 }
 
-.with-sidebar aside {
+.left-sidebar > :last-child,
+.right-sidebar > :first-child {
  flex: 1 calc(30% - 0.5em);
  min-width: 10rem;
 }
 
+.featured > *,
 .featured + .featured {
  padding-top: 2ex;
 }
 
-.featured .links {
- margin-top: 0;
+main.featured {
+ padding-bottom: 6ex;
 }
 
 .featured h2 {
@@ -1207,39 +1230,30 @@ a[data-broken=""]::after {
  content: " \2192";
 }
 
-.featured aside ul a {
- display: block;
- text-decoration: none;
- padding-right: 5px;
-}
-
-
-.featured aside ul a:hover {
- background-color: rgba(255,255,0, 0.2);
-}
-
-
-.featured aside ul {
+.hoja-rayada {
  --base-font-size: 30px;
  position: relative;
- font-size: calc(var(--base-font-size) * 0.50);
  font-style: italic;
+ font-size: 80%;
  line-height: var(--base-font-size);
  background-image: repeating-linear-gradient(white 0px, white calc(var(--base-font-size) - 1px), steelblue var(--base-font-size));
  box-shadow: var(--card-box-shadow);
  border-radius: 0;
  margin: 4ex 0 0;
  padding: 0 0 0 25px;
+}
+
+.hoja-rayada.con-cinta {
  transform: rotate(-1deg);
 }
 
-.featured aside ul::before {
+.hoja-rayada.con-cinta::before {
  top: -15px;
  height: var(--base-font-size) !important;
  transform: rotate(2deg);
 }
 
-.featured aside ul::after {
+.hoja-rayada::after {
  content: '';
  position: absolute;
  top: 0;
@@ -1247,6 +1261,23 @@ a[data-broken=""]::after {
  height: 100%;
  width: 2px;
  background: rgba(255,0,0,0.4);
+}
+
+
+.hoja-rayada > * {
+ margin: 0;
+ padding: 0;
+}
+
+.hoja-rayada a {
+ display: block;
+ text-decoration: none;
+ padding-right: 5px;
+}
+
+
+.hoja-rayada a:hover {
+ background-color: rgba(255,255,0, 0.2);
 }
 
 
@@ -1289,7 +1320,7 @@ a.img_taped:hover>img {
  box-shadow: 1px 1px 3px #1CA1CF;
 }
 
-.featured aside ul::before,
+.con-cinta::before,
 .img_taped::before,
 .img_taped:not([class~="has_zoom"])::after {
  content: "";
