@@ -94,6 +94,7 @@
  --base-font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif; 
  --base-line-height: 150%;
  --title-font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+ --title-color: rebeccapurple;
  --cursive-font-family: 'Grape Nuts', 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
  --content-width: 40rem;
  --card-border: 2px solid #777;
@@ -145,7 +146,7 @@ h1, h2, h3, h4, h5, h6, .hero__subtitle, .caution h2, .stamp {
 h1, h2, h3, h4, h5, h6, .hero__subtitle {
  margin-top: 2ex;
  margin-bottom: 1ex;
- color: rebeccapurple;
+ color: var(--title-color);
 }
 
 article {
@@ -1140,24 +1141,30 @@ main > .lista-mosaico {
  z-index: 1;
 }
 
-.card figure,
-.lista-mosaico.card > * figure {
+.card:first-child :is(h2, h3) {
+ background: teal;
+ background: linear-gradient(to bottom, #9EBD13 0%, teal 100%);
+ color: white;
+}
+
+.card figure:first-child,
+.lista-mosaico.card > * figure:first-child {
  overflow: clip;
  background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
 }
 
-.card img,
-.lista-mosaico.card > * img {
+.card img:first-child,
+.lista-mosaico.card > * img:first-child {
  margin: 0;
  width: 100%;
  background-size: cover;
  transition: 0.3s ease;
 }
 
-.card figure,
-.lista-mosaico.card > * figure,
-.card img,
-.lista-mosaico.card > * img,
+.card figure:first-child,
+.lista-mosaico.card > * figure:first-child,
+.card img:first-child,
+.lista-mosaico.card > * img:first-child,
 .card :is(h2, h3) a::before,
 .lista-mosaico.card > * :is(h2, h3) a::before {
  height: 150px;
@@ -1168,13 +1175,13 @@ main > .lista-mosaico {
  margin: 0 2ex 1ex;
 }
 
-.lista-mosaico:hover .card img,
-.lista-mosaico.card:hover img {
+.lista-mosaico:hover .card img:first-child,
+.lista-mosaico.card:hover img:first-child {
  filter: grayscale(1);
 }
 
-.lista-mosaico .card:hover img,
-.lista-mosaico.card > *:hover img {
+.lista-mosaico .card:hover img:first-child,
+.lista-mosaico.card > *:hover img:first-child {
  filter: grayscale(0);
  transform: scale(1.1);
 }
@@ -1184,8 +1191,8 @@ main > .lista-mosaico {
 .left-sidebar,
 .right-sidebar,
 .two-columns {
- margin-top: 2ex;
- margin-bottom: 2ex;
+ padding-top: 2ex;
+ padding-bottom: 2ex;
  display: flex;
  flex-wrap: wrap;
  gap: 1em;
@@ -1207,14 +1214,15 @@ main > .lista-mosaico {
  min-width: 10rem;
 }
 
-.featured > *,
-.featured + .featured {
- margin-bottom: 10ex;
+.featured > section,
+section.featured + section.featured {
+ padding-top: 8ex;
+ padding-bottom: 8ex;
 }
 
 .featured h2 {
  font-weight: bold;
- color: rebeccapurple;
+ margin-top: 0;
  margin-bottom: 2ex;
  text-align: center;
 }
@@ -1225,6 +1233,73 @@ main > .lista-mosaico {
 
 .featured article footer a::after {
  content: " \2192";
+}
+
+
+.featured > .frase {
+ padding-top: 10ex;
+ padding-bottom: 10ex;
+ text-align: center;
+}
+
+.frase {
+ font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+ font-weight: normal;
+}
+
+.frase :first-child::before {
+ content: "\00AB";
+ margin-right: 0.5ex;
+}
+
+.frase :nth-last-child(2)::after {
+ content: "\00BB";
+ margin-left: 0.5ex;
+}
+
+.frase :first-child::before,
+.frase :nth-last-child(2)::after {
+ font-size: 150%;
+}
+
+.frase :not(.Firma) {
+ font-size: clamp(105%, 2.25vw, 150%);
+ line-height: 130%;
+}
+
+.frase > * {
+ margin-left: 2em;
+ margin-right: 2em;
+}
+
+.frase .Firma {
+ margin-top: 4ex;
+}
+
+.wtf::after {
+ content: "";
+ display: block;
+ clear: both;
+}
+
+.wtf img {
+ float: right;
+ margin: 0 2ex 1ex;
+}
+
+.stripe1 {
+ background-color: #E0FFCD;
+}
+
+.stripe2 {
+ background-color: #EFD8F4;
+}
+
+.stripe3 {
+ --title-color: white;
+ color: white;
+ background: rebeccapurple;
+ background: linear-gradient(to bottom, #512DA8, rebeccapurple);
 }
 
 .hoja-rayada {
@@ -1272,6 +1347,7 @@ main > .lista-mosaico {
  font-size: calc(var(--renglon-line-height) / 2) !important;
  line-height: var(--renglon-line-height) !important;
  text-align: center;
+ font-weight: bold;
  margin: 0;
  padding: 0;
  border: 0;
