@@ -89,6 +89,7 @@
 
 :root {
  --base-color: #222;
+ --muted-color: #999;
  --base-background-color: #FAFAFA;
  --base-font-size: 14pt;
  --base-font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif; 
@@ -1304,16 +1305,26 @@ section.featured + section.featured {
 
 .hoja-rayada {
  --renglon-line-height: 30px;
+ --margen-width: calc(var(--renglon-line-height) * 2 / 3);
  position: relative;
  font-style: italic;
  font-size: calc(var(--renglon-line-height) / 2);
  line-height: var(--renglon-line-height);
- background-image: repeating-linear-gradient(white 0px, white calc(var(--renglon-line-height) - 1px), steelblue var(--renglon-line-height));
+ background-image:
+  linear-gradient(to right,
+    transparent 0px,
+    transparent var(--margen-width),
+    rgba(255,0,0, 0.4) calc(var(--margen-width) + 1px),
+    transparent calc(var(--margen-width) + 2px),
+    transparent calc(var(--margen-width) + 3px),
+    rgba(255,0,0, 0.4) calc(var(--margen-width) + 4px),
+    transparent calc(var(--margen-width) + 5px),
+    transparent 100%),
+  repeating-linear-gradient(white 0px, white calc(var(--renglon-line-height) - 1px), steelblue var(--renglon-line-height));
  box-shadow: var(--card-box-shadow);
  border-radius: 0;
  margin: 4ex 0 0;
  padding: 0 0 0 calc(var(--renglon-line-height) * 2 / 3);
- list-style: none;
 }
 
 .hoja-rayada.con-cinta {
@@ -1325,17 +1336,6 @@ section.featured + section.featured {
  height: var(--renglon-line-height) !important;
  transform: rotate(2deg);
 }
-
-.hoja-rayada::after {
- content: '';
- position: absolute;
- top: 0;
- left: calc(var(--renglon-line-height) * 2 / 3);
- height: 100%;
- width: 2px;
- background: rgba(255,0,0,0.4);
-}
-
 
 .hoja-rayada > * {
  margin: 0;
@@ -1353,9 +1353,17 @@ section.featured + section.featured {
  border: 0;
 }
 
+.hoja-rayada :is(ul, ol) {
+ list-style: none;
+}
+
 .hoja-rayada time {
- min-width: 12ch;
  display: inline-block;
+}
+
+.hoja-rayada :is(ul, ol) time {
+ min-width: 10ch;
+ color: var(--muted-color);
 }
 
 .hoja-rayada a {
@@ -1372,6 +1380,124 @@ section.featured + section.featured {
  text-align: center;
 }
 
+
+.hoja-rayada.con-broche {
+ padding-top: var(--renglon-line-height);
+}
+
+.con-broche::before {
+ display: block;
+ position: absolute;
+ top: -60px;
+ left: calc(50% - (var(--renglon-line-height) * 2 / 3));
+ content: "";
+ background: url(/img/style/paper-broche2.png) no-repeat;
+ width: 50px;
+ height: 72px;
+ margin-left: auto;
+ margin-right: auto;
+ z-index: 1;
+ transform: rotate(5deg);
+}
+
+.con-portapapeles::after {
+ display: block;
+ content: "";
+ position: absolute;
+ width: calc(100% + 4ex);
+ height: calc(100% + 3ex);
+ left: -2ex;
+ top: -1ex;
+ background: burlywood;
+ z-index: -1;
+ border-radius: 4pt;
+ box-shadow: var(--card-box-shadow);
+ transform: rotate(1deg);
+}
+
+.con-clip::before {
+ content: "";
+ display: block;
+ width: 40px;
+ height: 125px;
+ position: absolute;
+ top: -6px;
+ z-index: 1;
+ background: transparent url(/img/style/paper-clip.png) no-repeat;
+ background-size: contain;
+ right: 3%;
+}
+
+.post-it {
+ background-color: #FFFEDA;
+ background: linear-gradient(180deg, #FEFCAF, #FFFEDA), #FFFEDA;
+ box-shadow: var(--card-box-shadow);
+ border-radius: 0;
+ padding: 1ex 1em;
+ text-indent: 0;
+ transform: rotate(-5deg);
+ max-width: 15em;
+ max-height: 15em;
+ aspect-ratio: 1/1;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: var(--cursive-font-family);
+ letter-spacing: 1px;
+ line-height: 90%;
+ overflow: hidden;
+}
+
+.post-it > * {
+ margin: 0;
+ padding: 0;
+}
+
+.post-it :is(ul, ol) {
+ margin-left: 1em;
+ list-style: circle outside;
+}
+
+.post-it li {
+ margin-top: 1.75ex;
+ margin-bottom: 1.75ex;
+}
+
+.post-it li.pending {
+ list-style: "\2610 " outside;
+ color: blue;
+}
+
+.post-it li.done {
+ list-style: "\2611 " outside;
+ color: var(--muted-color);
+}
+
+.post-it :is(h1, h2, h3, h4, h5, h6) {
+ font-family: inherit;
+ font-size: inherit;
+ color: inherit;
+ border-bottom: 1px solid var(--base-color);;
+ margin-bottom: 0;
+}
+
+.post-it.abrochado {
+ background: url(/img/style/paper-broche.png) 1ex 1ex no-repeat, linear-gradient(180deg, #FEFCAF, #FFFEDA), #FFFEDA;
+}
+
+.post-it.con_clip::after {
+ content: "";
+ display: block;
+ width: 125px;
+ height: 125px;
+ position: absolute;
+ z-index: 1;
+ background: transparent url("/img/style/paper-clip.png") no-repeat;
+ box-shadow: none;
+ background-size: contain;
+ top: -2px;
+ left: auto;
+ right: 4%;
+}
 
 /*============================================================================
  *
@@ -1603,7 +1729,7 @@ button[type="submit"],
 
 .paginator a:not([href]),
 .btn.disabled {
- color: #999;
+ color: var(--muted-color);
  background: #EEE;
 }
 
