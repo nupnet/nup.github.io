@@ -5,9 +5,36 @@
     <description>NUP Online, una vez más a los ponchazos en internet.</description>
     <link>https://www.nup.com.ar/</link>
     <atom:link href="https://www.nup.com.ar/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Oct 2026 22:20:18 -0300</pubDate>
-    <lastBuildDate>Mon, 26 Oct 2026 22:20:18 -0300</lastBuildDate>
+    <pubDate>Tue, 27 Oct 2026 23:56:38 -0300</pubDate>
+    <lastBuildDate>Tue, 27 Oct 2026 23:56:38 -0300</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Destroy Any Website</title>
+        <description>&lt;p&gt;Cualquier sitio web se vuelve un nivel de pixel-art destructible, solo o con amigos.&lt;/p&gt;
+&lt;p&gt;Como demostraci&amp;oacute;n, la URL del enlace te lleva a destruir este mismo sitio.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Oct 2026 00:00:00 -0300</pubDate>
+        <link>https://www.nup.com.ar/links/link4.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/links/link4.html</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>1</title>
+        <description>&lt;p&gt;Existe una pel&amp;iacute;cula espa&amp;ntilde;ola de 1983 llamada &lt;em&gt;No me toques el pito que me irrito&lt;/em&gt;. Las enfermeras y las pacientes pondrán al doctor Casimiro Berga en apuros.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 Oct 2026 00:00:00 -0300</pubDate>
+        <link>https://www.nup.com.ar/curiosidades/1.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/curiosidades/1.html</guid>
+        
+        
+        <category>curiosidades</category>
+        
+      </item>
     
       <item>
         <title>Rotetra</title>
@@ -140,37 +167,6 @@
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Ooohh Oh Ooooh</title>
-        <description>&lt;p&gt;Problemas técnicos. BRB.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Dec 2021 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/blog/2021/12/10/ooohh-oh-ooooh.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/blog/2021/12/10/ooohh-oh-ooooh.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>FU .com</title>
-        <description>&lt;header class=&quot;hero hero--wired&quot;&gt;
-    &lt;img src=&quot;/img/style/icon-zombie.svg&quot; alt=&quot;Icono de un zombie&quot; width=&quot;130&quot; height=&quot;130&quot;&gt;&lt;hgroup&gt;
-      &lt;h1&gt;FU .com&lt;/h1&gt;
-      &lt;p&gt;Siempre quise un .net&lt;/p&gt;
-    &lt;/hgroup&gt;
-&lt;/header&gt;
-</description>
-        <pubDate>Thu, 02 Dec 2021 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/front/fu_dotcom.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/front/fu_dotcom.html</guid>
-        
-        
-        <category>front</category>
         
       </item>
     
