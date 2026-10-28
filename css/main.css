@@ -1324,6 +1324,7 @@ section.featured + section.featured {
 
 .stripe1 {
  background-color: #E0FFCD;
+ background-image: linear-gradient(to bottom, #E7FFD7 0%, #E0FFCD 20%, #E0FFCD 75%, #C0FFAD 100%);
 }
 
 .stripe2 {
