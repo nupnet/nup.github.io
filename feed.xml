@@ -3,11 +3,61 @@
   <channel>
     <title>NUP</title>
     <description>NUP Online, una vez más a los ponchazos en internet.</description>
-    <link>https://www.nup.com.ar/</link>
-    <atom:link href="https://www.nup.com.ar/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Oct 2026 01:53:06 -0300</pubDate>
-    <lastBuildDate>Wed, 28 Oct 2026 01:53:06 -0300</lastBuildDate>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 30 Oct 2026 02:43:53 -0300</pubDate>
+    <lastBuildDate>Fri, 30 Oct 2026 02:43:53 -0300</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Recursos sobre Web Sencilla</title>
+        <description></description>
+        <pubDate>Thu, 29 Oct 2026 00:00:00 -0300</pubDate>
+        <link>http://0.0.0.0:4000/links/link8.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/links/link8.html</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>BIGWORDS.PAGE</title>
+        <description>&lt;p&gt;Turn a phone, tablet or TV into a sign. Type a message and it fills the screen: welcome signs, timers, Wi-Fi passwords and more. No app, no account, free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Oct 2026 00:00:00 -0300</pubDate>
+        <link>http://0.0.0.0:4000/links/link7.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/links/link7.html</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Neuron Persona Library</title>
+        <description></description>
+        <pubDate>Thu, 29 Oct 2026 00:00:00 -0300</pubDate>
+        <link>http://0.0.0.0:4000/links/link6.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/links/link6.html</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>80.style</title>
+        <description>&lt;p&gt;80.style stores stuff written by authors, plus other media that might be meaningful to complement written stuff, in distinctive retro-looking themes. We lack lowercase letters, too. And we&apos;re PROUD of that! ^^&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Oct 2026 00:00:00 -0300</pubDate>
+        <link>http://0.0.0.0:4000/links/link5.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/links/link5.html</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Destroy Any Website</title>
@@ -15,8 +65,8 @@
 &lt;p&gt;Como demostraci&amp;oacute;n, la URL del enlace te lleva a destruir este mismo sitio.&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Oct 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/links/link4.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/links/link4.html</guid>
+        <link>http://0.0.0.0:4000/links/link4.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/links/link4.html</guid>
         
         
         <category>links</category>
@@ -28,8 +78,8 @@
         <description>&lt;p&gt;Existe una pel&amp;iacute;cula espa&amp;ntilde;ola de 1983 llamada &lt;em&gt;No me toques el pito que me irrito&lt;/em&gt;. Las enfermeras y las pacientes pondrán al doctor Casimiro Berga en apuros.&lt;/p&gt;
 </description>
         <pubDate>Sat, 24 Oct 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/curiosidades/1.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/curiosidades/1.html</guid>
+        <link>http://0.0.0.0:4000/curiosidades/1.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/curiosidades/1.html</guid>
         
         
         <category>curiosidades</category>
@@ -40,8 +90,8 @@
         <title>Rotetra</title>
         <description></description>
         <pubDate>Wed, 14 Oct 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/links/link3.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/links/link3.html</guid>
+        <link>http://0.0.0.0:4000/links/link3.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/links/link3.html</guid>
         
         
         <category>links</category>
@@ -53,8 +103,8 @@
         <description>&lt;p&gt;Fight against Time itself! Collect resources and invest them in the Upgrade tree to get stronger! But be careful! Balance your Upgrades as some make you progress faster but also make the enemies stronger! Will you be able to defeat the boss?&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Oct 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/links/link2.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/links/link2.html</guid>
+        <link>http://0.0.0.0:4000/links/link2.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/links/link2.html</guid>
         
         
         <category>links</category>
@@ -66,8 +116,8 @@
         <description>&lt;p&gt;Un peque&amp;ntilde;o juego de platarformas en 2D en el que ten&amp;eacute;s que volver a conectar la fibra &amp;oacute;ptica en las casas en una monta&amp;ntilde;a.&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Oct 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/links/link1.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/links/link1.html</guid>
+        <link>http://0.0.0.0:4000/links/link1.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/links/link1.html</guid>
         
         
         <category>links</category>
@@ -88,85 +138,11 @@
 &lt;/header&gt;
 </description>
         <pubDate>Mon, 29 Jan 2024 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/front/hello_future.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/front/hello_future.html</guid>
+        <link>http://0.0.0.0:4000/front/hello_future.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/front/hello_future.html</guid>
         
         
         <category>front</category>
-        
-      </item>
-    
-      <item>
-        <title>Una nueva esperanza</title>
-        <description>&lt;p&gt;Hace tanto que vengo posponiendo esto que no se por dónde empezar.  Fueron muchos los cambios en el sitio últimamente, pero casi todos internos, así que no me voy a poner a enumerarlos porque la mayoría ni se notan.  Solamente quiero destacar que incorporé a la sección &lt;a href=&quot;/blog&quot;&gt;blog&lt;/a&gt; las entradas del &lt;em&gt;Proyecto NUP 2012&lt;/em&gt;, y ya están en cola de espera las del viejo &lt;em&gt;PUN Online&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;También volvió el &lt;a href=&quot;/contacto.html&quot;&gt;formulario de contacto&lt;/a&gt;, así que pueden retomar la (in)sana costumbre de hacer catarsis en esta web.  No será un libro de quejas, pero se acerca bastante.&lt;/p&gt;
-
-&lt;p&gt;Pero la razón de ser de esta entrada, el &lt;em&gt;leitmotiv&lt;/em&gt;, es servir de hito, ya que cierra la última fase de las modificaciones estructurales importantes.  La idea es retomar el trabajo sobre el contenido en sí, hasta terminar con el &lt;a href=&quot;/articulos/expli_archivo.html&quot;&gt;material del archivo&lt;/a&gt; digital.  Luego de eso tendré que arremangarme para buscar el sustrato analógico, y evaluar si es restaurable a estas alturas.&lt;/p&gt;
-
-&lt;p&gt;Porque pasó mucho tiempo.  Bastante.&lt;/p&gt;
-
-&lt;p&gt;Eso no significa que se terminaron los cambios de diseño.  Hay muchos proyectados, pero van a tener que acomodarse al nuevo presupuesto de tiempo, y ciertamente no son prioritarios ahora mismo.  Ya les llegará su turno.&lt;/p&gt;
-
-&lt;p&gt;Y sin más que decir, me despido hasta la próxima actualización.  Sea cuando sea.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 Apr 2022 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/blog/2022/04/18/una-nueva-esperanza.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/blog/2022/04/18/una-nueva-esperanza.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Porque una explosión no es suficiente</title>
-        <description>&lt;p&gt;Hace más de un mes me dije que &lt;em&gt;la semana que viene voy a publicar una explicación&lt;/em&gt;.  La primer semana pasó sin actualizaciones, después la siguiente, y luego otra más…  ¿Qué puedo decir?  Estuve ocupado.&lt;/p&gt;
-
-&lt;p&gt;Me cuesta creer cuánto tiempo pasó desde la última vez.  Parece que hubiese sido ayer que cerraba la puerta de la oficina mientras pensaba “no va a ser mucho tiempo; el piloto automático se puede encargar”.  Pero fueron seis años.&lt;/p&gt;
-
-&lt;p&gt;Durante todo ese tiempo las cosas marcharon sin imprevistos, hasta el día de la explosión.  La programación del piloto automático preveía muchas cosas, pero no una bomba (al menos de este tipo).  Ese día tuve que regresar para el control de daños, aunque más no fuera momentáneamente.&lt;/p&gt;
-
-&lt;p&gt;Increíblemente no hubo muchos destrozos, aunque sí desorden y desparramo de cosas.  La base es robusta, así que con reconstruir una sección (mínima) de la fachada y reemplazar una puerta fue suficiente para volver a estar operativos.  Pero ver los archivos revueltos me recordó el trabajo pendiente, y que tendría que volver si quería terminar esta cruzada algún día.&lt;/p&gt;
-
-&lt;p&gt;Así que, herramienta en mano, demolí una pared interna que siempre me molestó, tiré a la basura muchos adornos innecesarios y di la primer mano de pintura –como para tapar un poco el nuevo destrozo.  ¿Es que acaso una bomba no fue suficiente?&lt;/p&gt;
-
-&lt;p&gt;La semana siguiente revisé que todo estuviera en su lugar, y un mes después aquí estoy.  Un nuevo plan, un nuevo proyecto.  Parece que el trabajo se expande en vez de achicarse.&lt;/p&gt;
-
-&lt;p&gt;Vuelvo a la obra.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 22 Jan 2022 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/blog/2022/01/22/porque-una-explosion-no-es-suficiente.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/blog/2022/01/22/porque-una-explosion-no-es-suficiente.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Status</title>
-        <description>&lt;p&gt;&lt;em&gt;Non numerata pecunia.&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Dec 2021 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/blog/2021/12/14/status.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/blog/2021/12/14/status.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Status</title>
-        <description>&lt;p&gt;Sólo para que quede constancia: considero que el &lt;a href=&quot;https://shopify.github.io/liquid/&quot;&gt;lenguaje de plantillas Liquid&lt;/a&gt; es… &lt;em&gt;detestable&lt;/em&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Dec 2021 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/blog/2021/12/12/status.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/blog/2021/12/12/status.html</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     

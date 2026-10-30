@@ -1184,6 +1184,9 @@ main > .lista-mosaico {
 
 .card figure:first-child,
 .lista-mosaico.card > * figure:first-child {
+ text-align: center;
+ font-size: 90%;
+ color: white;
  overflow: clip;
  background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
 }
@@ -1359,7 +1362,7 @@ section.featured + section.featured {
  box-shadow: var(--card-box-shadow);
  border-radius: 0;
  margin: 4ex 0 0;
- padding: 0 0 0 calc(var(--renglon-line-height) * 2 / 3);
+ padding: 0 0 calc(var(--renglon-line-height) - 2px) calc(var(--renglon-line-height) * 2 / 3);
 }
 
 .hoja-rayada.con-cinta {
@@ -1388,6 +1391,7 @@ section.featured + section.featured {
  border: 0;
 }
 
+.hoja-rayada:is(ul, ol),
 .hoja-rayada :is(ul, ol) {
  list-style: none;
 }
