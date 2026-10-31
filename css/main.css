@@ -102,11 +102,6 @@
  --card-border-radius: 4px;
  --card-box-shadow: 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.25);
  --card-box-shadow: 3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
- /*
- --card-border: 1px solid #DDD;
- --card-border-radius: 5px;
- --card-box-shadow: rgba(0,0,0, 0.18) 0px 1px 3px 0px;
- */
 }
 
 @view-transition {
@@ -159,9 +154,13 @@ article header {
 }
 
 article h1 {
-  letter-spacing: -1;
+ letter-spacing: -1pt;
 }
 
+
+p {
+ margin-bottom: 2ex;
+}
 
 img {
  max-width: 100%;
@@ -199,7 +198,6 @@ ul, ol, dl {
 ul, dl {
  list-style: url(/img/style/bullet-arrow-orange.png);
 }
-
 
 dl {
  margin: 3ex 2em;
@@ -654,14 +652,9 @@ main > article > header  {
  margin-top: 4ex;
 }
 
-main > article p {
- margin-bottom: 3ex;
- line-height: 1.85em;
-}
-
 main > article ul p,
 main > article li {
- margin-bottom: 1.5ex;
+ margin-bottom: 0.5ex;
 }
 
 main > article > p:first-of-type::first-letter {
@@ -671,17 +664,26 @@ main > article > p:first-of-type::first-letter {
  display: inline-block;
  float: left;
  margin-right: 0.25rem;
- font-size: 350%;
+ font-size: 295%;
  line-height: 1;
  text-indent: 0;
  text-transform: uppercase;
  color: rebeccapurple;
 }
 
-main > article > p:last-of-type::after {
- content: " \2666";
- font-weight: bold;
- color: #AAA;
+main > article > p:first-of-type:has(+ ol, + ul)::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main > article::after {
+ content: "\2666";
+ color: var(--muted-color);
+ display: block;
+ text-align: center;
+ margin-top: 1ex;
+ margin-bottom: 1ex;
 }
 
 ul.Caracteristicas {
@@ -1151,23 +1153,25 @@ main > .lista-mosaico {
 
 .card :is(h2, h3),
 .lista-mosaico.card > * :is(h2, h3) {
- margin: 0;
+ margin: 0 0 1ex 0;
  padding: 1ex 2ex;
  font-family: var(--base-font-family);
  font-size: var(--base-font-size);
  font-weight: bold;
  line-height: var(--base-line-height);
+ line-height: 110%;
 }
 
 .card :is(h2, h3) a,
 .lista-mosaico.card > * :is(h2, h3) a {
+ color: inherit;
  margin: 0;
  text-decoration: none;
  font-weight: normal;
 }
 
-.card :is(h2, h3) a::before,
-.lista-mosaico.card > * :is(h2, h3) a::before {
+.card:not(.con-titulo-inline) :is(h2, h3) a::before,
+.lista-mosaico.card:not(.con-titulo-inline) > * :is(h2, h3) a::before {
  content: "";
  position: absolute;
  top: 0;
@@ -1225,6 +1229,37 @@ main > .lista-mosaico {
 }
 
 
+.card.con-titulo-inline :is(h2, h3) {
+ position: absolute;
+ display: flex;
+ justify-content: flex-start;
+ align-items: flex-end;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ padding: 0;
+ background: transparent;
+ margin: 0;
+ font-size: 90%;
+}
+
+.card.con-titulo-inline :is(h2, h3) a {
+ color: white;
+ background: linear-gradient(to bottom, transparent 0, rgba(0,0,0, 0.7) 6ex, rgba(0,0,0, 0.9) 100%);
+ padding: 6ex 2ex 1ex;
+ flex-basis: 100%;
+}
+
+.card.con-titulo-inline :is(h2, h3) a::before {
+ content: "";
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+}
 
 .left-sidebar,
 .right-sidebar,
@@ -1373,6 +1408,10 @@ section.featured + section.featured {
  top: calc(var(--renglon-line-height) / -2);
  height: var(--renglon-line-height) !important;
  transform: rotate(2deg);
+}
+
+.hoja-rayada li {
+ margin: 0;
 }
 
 .hoja-rayada > * {
