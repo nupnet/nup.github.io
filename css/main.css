@@ -1074,6 +1074,8 @@ a[data-broken=""]::after {
  padding: 2em;
  border-radius: var(--card-border-radius);
  background: #EFEFEF;
+ max-height: 20ex;
+ overflow: hidden;
 }
 
 .lista-detallada article::after {
@@ -1148,6 +1150,10 @@ main > .lista-mosaico {
  box-shadow: var(--card-box-shadow);
  overflow: clip;
  position: relative;
+}
+
+.card:not(.lista-mosaico, .con-titulo-inline),
+.lista-mosaico.card:not(.con-titulo-inline) > * {
  padding-bottom: 1.5ex;
 }
 
@@ -1212,8 +1218,8 @@ main > .lista-mosaico {
  height: 150px;
 }
 
-.card p,
-.lista-mosaico.card > * p {
+.card p:not(.seccion),
+.lista-mosaico.card > * p:not(.seccion) {
  margin: 0 2ex 1ex;
 }
 
@@ -1228,6 +1234,19 @@ main > .lista-mosaico {
  transform: scale(1.1);
 }
 
+.card .seccion {
+ margin: 0;
+ padding: 0.35ex 1ex;
+ display: block;
+ position: absolute;
+ top: 1ex;
+ right: 1ex;
+ background: teal;
+ color: white;
+ font-size: 80%;
+ line-height: 100%;
+ border-radius: 1ex;
+}
 
 .card.con-titulo-inline :is(h2, h3) {
  position: absolute;
@@ -1246,7 +1265,8 @@ main > .lista-mosaico {
 
 .card.con-titulo-inline :is(h2, h3) a {
  color: white;
- background: linear-gradient(to bottom, transparent 0, rgba(0,0,0, 0.7) 6ex, rgba(0,0,0, 0.9) 100%);
+ text-shadow: 0 0 1px black, 0 0 3px black;
+ background: linear-gradient(to bottom, transparent 0, rgba(0,0,0, 0.5) 6ex, rgba(0,0,0, 0.9) 100%);
  padding: 6ex 2ex 1ex;
  flex-basis: 100%;
 }
