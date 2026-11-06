@@ -759,27 +759,6 @@ ul.Caracteristicas {
  margin-right: -50vw;
 }
 
-.social-twitter, .social-facebook {
- opacity: 0.4;
- transition: opacity 500ms ease;
- display: block;
- height: 52px;
-}
-
-.social-twitter span, .social-facebook span {
- display: none;
-}
-
-.social-twitter {
- background: transparent url("../img/style/icon-twitter.png") no-repeat center center;
-}
-
-.social-facebook {
- background: transparent url("../img/style/icon-facebook.png") no-repeat center center;
-}
-
-
-
 /*============================================================================
  *
  * Featured Image
