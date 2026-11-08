@@ -1999,7 +1999,8 @@ body > a span {
  box-shadow: 1px 1px 3px rgba(0,0,0, 0.4);
  border-radius: 2px;
  line-height: 0;
- width: max-content;
+ max-width: 100%;
+ text-align: center;
 }
 
 .has_zoom {
@@ -2049,6 +2050,10 @@ body > a span {
 
 .img_foto.a_centro {
  display: block;
+}
+
+.img_foto img {
+ width: 100%;
 }
 
 @media only screen and (min-width: 992px) {
