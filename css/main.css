@@ -798,7 +798,7 @@ ul.Caracteristicas {
  .width_desktop_half {
   display: block;
   float: none;
-  width: max-content;
+  width: min(max-content, 100%);
   max-width: 100%;
   margin: 2ex auto;
  }
