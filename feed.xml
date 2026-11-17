@@ -5,9 +5,70 @@
     <description>NUP Online, una vez más a los ponchazos en internet.</description>
     <link>https://www.nup.com.ar/</link>
     <atom:link href="https://www.nup.com.ar/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Nov 2026 03:40:48 -0300</pubDate>
-    <lastBuildDate>Sun, 15 Nov 2026 03:40:48 -0300</lastBuildDate>
+    <pubDate>Mon, 16 Nov 2026 21:25:31 -0300</pubDate>
+    <lastBuildDate>Mon, 16 Nov 2026 21:25:31 -0300</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Jade Everstone</title>
+        <description>&lt;p&gt;Heyo, I&apos;m Natasha (aka. Nat). I&apos;m an illustrator and comic artist who likes drawing pointy things.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Nov 2026 00:00:00 -0300</pubDate>
+        <link>https://www.nup.com.ar/links/link16.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/links/link16.html</guid>
+        
+        <category>l:smallweb</category>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>MEDJED - Home ★</title>
+        <description>&lt;p&gt;Hello. This is my personal website that I made so I can practice coding and write about my interests. Like others on the indie web, I&apos;m not a huge fan of social media, so it&apos;s nice to create my own space away from that here.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Nov 2026 00:00:00 -0300</pubDate>
+        <link>https://www.nup.com.ar/links/link15.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/links/link15.html</guid>
+        
+        <category>l:smallweb</category>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>pjfrix&amp;#39;s webspace</title>
+        <description></description>
+        <pubDate>Mon, 16 Nov 2026 00:00:00 -0300</pubDate>
+        <link>https://www.nup.com.ar/links/link14.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/links/link14.html</guid>
+        
+        <category>l:smallweb</category>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>RetroGames.cz</title>
+        <description>&lt;p&gt;Welcome to the world of classic games that made video game history and re­pre­sen­ted the very best that young players of their time could experience. The mis­sion of RetroGames.cz is to keep alive ga­mes from the 1980s and 1990s that were created for computers and consoles which are now mostly unavailable and ha­ve long since ceased to be supported by their manufacturers.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Nov 2026 00:00:00 -0300</pubDate>
+        <link>https://www.nup.com.ar/links/link13.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/links/link13.html</guid>
+        
+        <category>l:retro</category>
+        
+        <category>l:smallweb</category>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Goblin tools</title>
@@ -17,6 +78,8 @@
         <pubDate>Sun, 15 Nov 2026 00:00:00 -0300</pubDate>
         <link>https://www.nup.com.ar/links/link9.html</link>
         <guid isPermaLink="true">https://www.nup.com.ar/links/link9.html</guid>
+        
+        <category>l:util</category>
         
         
         <category>links</category>
@@ -30,6 +93,10 @@
         <link>https://www.nup.com.ar/links/link12.html</link>
         <guid isPermaLink="true">https://www.nup.com.ar/links/link12.html</guid>
         
+        <category>l:smallweb</category>
+        
+        <category>l:fan</category>
+        
         
         <category>links</category>
         
@@ -41,6 +108,8 @@
         <pubDate>Sun, 15 Nov 2026 00:00:00 -0300</pubDate>
         <link>https://www.nup.com.ar/links/link11.html</link>
         <guid isPermaLink="true">https://www.nup.com.ar/links/link11.html</guid>
+        
+        <category>l:aggregator</category>
         
         
         <category>links</category>
@@ -55,6 +124,8 @@
         <pubDate>Sun, 15 Nov 2026 00:00:00 -0300</pubDate>
         <link>https://www.nup.com.ar/links/link10.html</link>
         <guid isPermaLink="true">https://www.nup.com.ar/links/link10.html</guid>
+        
+        <category>l:raro</category>
         
         
         <category>links</category>
@@ -88,58 +159,9 @@ Esto causa una caída de presión y las estaciones de bombeo deben compensar act
         <link>https://www.nup.com.ar/links/link8.html</link>
         <guid isPermaLink="true">https://www.nup.com.ar/links/link8.html</guid>
         
+        <category>l:util</category>
         
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>BIGWORDS.PAGE</title>
-        <description>&lt;p&gt;Turn a phone, tablet or TV into a sign. Type a message and it fills the screen: welcome signs, timers, Wi-Fi passwords and more. No app, no account, free.&lt;/p&gt;
-&lt;p&gt;This site allows you to compose a giant message, which occupies the entire screen, directly in the browser, editing only the URL. (It has a visual, easier editor, too.) In addition to words, you can also put QR codes, regressive counters, images…&lt;/p&gt;
-</description>
-        <pubDate>Thu, 29 Oct 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/links/link7.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/links/link7.html</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Neuron Persona Library</title>
-        <description></description>
-        <pubDate>Thu, 29 Oct 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/links/link6.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/links/link6.html</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>80.style</title>
-        <description>&lt;p&gt;80.style stores stuff written by authors, plus other media that might be meaningful to complement written stuff, in distinctive retro-looking themes. We lack lowercase letters, too. And we&apos;re PROUD of that! ^^&lt;/p&gt;
-</description>
-        <pubDate>Thu, 29 Oct 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/links/link5.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/links/link5.html</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Destroy Any Website</title>
-        <description>&lt;p&gt;Cualquier sitio web se vuelve un nivel de pixel-art destructible, solo o con amigos.&lt;/p&gt;
-&lt;p&gt;Como demostraci&amp;oacute;n, la URL del enlace te lleva a destruir este mismo sitio.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 27 Oct 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/links/link4.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/links/link4.html</guid>
+        <category>l:smallweb</category>
         
         
         <category>links</category>
