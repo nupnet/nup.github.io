@@ -5,9 +5,24 @@
     <description>NUP Online, una vez más a los ponchazos en internet.</description>
     <link>https://www.nup.com.ar/</link>
     <atom:link href="https://www.nup.com.ar/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Nov 2026 21:25:31 -0300</pubDate>
-    <lastBuildDate>Mon, 16 Nov 2026 21:25:31 -0300</lastBuildDate>
+    <pubDate>Tue, 17 Nov 2026 02:33:41 -0300</pubDate>
+    <lastBuildDate>Tue, 17 Nov 2026 02:33:41 -0300</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>El mensaje de Chilbolton</title>
+        <description>&lt;p&gt;El 21 de agosto de 2001 apareció una impresión en un campo de trigo de Chilbolton, Reino Unido, que imita el formato del Mensaje de Arecibo enviado en 1974.&lt;/p&gt;
+
+&lt;p&gt;Entre otros cambios, la figura humana del mensaje original fue reemplazada por una coincidente con el estereotipo de los extraterrestres “grises” presentes en la cultura popular.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Nov 2026 00:00:00 -0300</pubDate>
+        <link>https://www.nup.com.ar/curiosidades/3.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/curiosidades/3.html</guid>
+        
+        
+        <category>curiosidades</category>
+        
+      </item>
     
       <item>
         <title>Jade Everstone</title>
@@ -149,22 +164,6 @@ Esto causa una caída de presión y las estaciones de bombeo deben compensar act
         
         
         <category>curiosidades</category>
-        
-      </item>
-    
-      <item>
-        <title>Recursos sobre Web Sencilla</title>
-        <description></description>
-        <pubDate>Thu, 29 Oct 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/links/link8.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/links/link8.html</guid>
-        
-        <category>l:util</category>
-        
-        <category>l:smallweb</category>
-        
-        
-        <category>links</category>
         
       </item>
     
