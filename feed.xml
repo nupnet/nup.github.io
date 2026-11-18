@@ -5,9 +5,26 @@
     <description>NUP Online, una vez más a los ponchazos en internet.</description>
     <link>https://www.nup.com.ar/</link>
     <atom:link href="https://www.nup.com.ar/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Nov 2026 02:33:41 -0300</pubDate>
-    <lastBuildDate>Tue, 17 Nov 2026 02:33:41 -0300</lastBuildDate>
+    <pubDate>Wed, 18 Nov 2026 03:59:28 -0300</pubDate>
+    <lastBuildDate>Wed, 18 Nov 2026 03:59:28 -0300</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>The V0idspace</title>
+        <description>&lt;p&gt;Welcome to my very WIP nonsense website. I am rekindeling my love for old web and HTML, and experimenting as i go.&lt;/p&gt;
+&lt;p&gt;Una especie de directorio de cosas.&lt;/p&gt;
+&lt;p&gt;Tiene cuenta en Quxnet.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Nov 2026 00:00:00 -0300</pubDate>
+        <link>https://www.nup.com.ar/links/link17.html</link>
+        <guid isPermaLink="true">https://www.nup.com.ar/links/link17.html</guid>
+        
+        <category>l:smallweb</category>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>El mensaje de Chilbolton</title>
@@ -144,26 +161,6 @@
         
         
         <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>TV Pickup</title>
-        <description>&lt;p&gt;El &lt;em&gt;TV Pickup&lt;/em&gt; es un fenómeno de la red eléctrica del Reino Unido que ocurre cuando mucha gente mira el mismo programa de televisión a la vez.&lt;/p&gt;
-
-&lt;p&gt;Al llegar a una pausa comercial o finalizar la transmisión, los televidentes utilizan teteras eléctricas para prepararse un té, lo que aumenta la demanda entre 200 y 400 megawatts.&lt;/p&gt;
-
-&lt;p&gt;El récord histórico fue en la semifinal de la copa FIFA de 1990 entre Inglaterra y Alemania, cuando llegó a los 2.800 megawatts de demanda extra.&lt;/p&gt;
-
-&lt;p&gt;El efecto también se nota en la red de agua, ya que la gente usa el baño y rellena las teteras.
-Esto causa una caída de presión y las estaciones de bombeo deben compensar activando bombas, lo que contribuye al aumento del consumo eléctrico.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 15 Nov 2026 00:00:00 -0300</pubDate>
-        <link>https://www.nup.com.ar/curiosidades/2.html</link>
-        <guid isPermaLink="true">https://www.nup.com.ar/curiosidades/2.html</guid>
-        
-        
-        <category>curiosidades</category>
         
       </item>
     
